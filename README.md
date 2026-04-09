@@ -1,12 +1,17 @@
-# FastAPI + MongoDB Atlas CRUD
+# FastAPI + MongoDB Atlas CRUD con Autenticazione
 
 ## Panoramica del progetto
 
-Questo progetto implementa una CRUD completa per la gestione di utenti utilizzando FastAPI come framework backend, MongoDB Atlas come database cloud, PyMongo come driver Python per la connessione a MongoDB e MongoDB Compass come interfaccia grafica per l’ispezione e la gestione dei dati.
+Questo progetto implementa una CRUD completa per la gestione di utenti e un sistema di autenticazione (registrazione e login) utilizzando FastAPI come framework backend, MongoDB Atlas come database cloud, PyMongo come driver Python per la connessione a MongoDB e MongoDB Compass come interfaccia grafica per l’ispezione e la gestione dei dati.
 
 L’obiettivo del progetto non è soltanto fornire un insieme di endpoint funzionanti, ma anche definire una struttura ordinata e professionale che possa essere compresa, estesa e mantenuta facilmente da un team di sviluppo. Il progetto è stato organizzato separando chiaramente configurazione, accesso al database, serializzazione dei documenti, repository e router HTTP.
 
 In questo scenario il database non gira in locale. Il database è ospitato su MongoDB Atlas, quindi tutti i componenti del sistema, compresi Compass e l’applicazione FastAPI, si collegano a un cluster remoto tramite connection string.
+
+Il sistema include:
+- CRUD per utenti (nome, email, età)
+- Autenticazione con registrazione, login, password hashate (bcrypt), e token JWT
+- Gestione livelli privacy per utenti auth
 
 ---
 
@@ -21,6 +26,8 @@ Questo progetto permette di comprendere:
 - come configurare un backend Python con FastAPI
 - come connettere FastAPI a MongoDB Atlas tramite PyMongo
 - come organizzare una CRUD secondo una struttura di progetto pulita
+- come implementare autenticazione sicura con password hashate (bcrypt) e token JWT
+- come gestire più collection MongoDB per utenti e auth
 - come testare gli endpoint tramite Swagger UI
 - come osservare in Compass gli effetti delle operazioni CRUD eseguite dall’API
 
@@ -38,8 +45,10 @@ Il progetto utilizza i seguenti strumenti:
 - MongoDB Compass
 - python-dotenv
 - Pydantic
+- bcrypt (per hashing password)
+- PyJWT (per token JWT)
 
-MongoDB documenta PyMongo come driver ufficiale Python e pubblica anche guide dedicate all’integrazione con FastAPI. Compass è la GUI ufficiale per l’esplorazione e la manipolazione dei dati MongoDB. 
+MongoDB documenta PyMongo come driver ufficiale Python e pubblica anche guide dedicate all’integrazione con FastAPI. Compass è la GUI ufficiale per l’esplorazione e la manipolazione dei dati MongoDB. bcrypt garantisce sicurezza per le password, mentre PyJWT gestisce l'autenticazione basata su token. 
 
 ---
 
@@ -50,8 +59,9 @@ L’applicazione segue una separazione delle responsabilità semplice ma efficac
 La configurazione è centralizzata in un modulo dedicato.  
 La connessione al database è definita in un punto unico.  
 Gli schemi di input e output sono definiti separatamente tramite Pydantic.  
-L’accesso ai dati è incapsulato in un repository.  
-Gli endpoint HTTP sono raccolti in router modulari.
+L’accesso ai dati è incapsulato in repository (uno per utenti, uno per auth).  
+Gli endpoint HTTP sono raccolti in router modulari (user e auth).  
+La sicurezza è gestita in un modulo dedicato con hashing bcrypt e JWT.
 
 Questa suddivisione permette di evitare codice disperso e di mantenere il progetto facilmente evolvibile.
 
@@ -67,7 +77,8 @@ fastapi-mongo-atlas-crud/
 │   ├── main.py
 │   ├── core/
 │   │   ├── __init__.py
-│   │   └── config.py
+│   │   ├── config.py
+│   │   └── security.py
 │   ├── db/
 │   │   ├── __init__.py
 │   │   └── mongodb.py
@@ -76,16 +87,76 @@ fastapi-mongo-atlas-crud/
 │   │   └── serializers.py
 │   ├── schemas/
 │   │   ├── __init__.py
-│   │   └── user_schema.py
+│   │   ├── user_schema.py
+│   │   └── auth_schema.py
 │   ├── repositories/
 │   │   ├── __init__.py
-│   │   └── user_repository.py
+│   │   ├── user_repository.py
+│   │   └── auth_repository.py
 │   └── routers/
 │       ├── __init__.py
-│       └── user_router.py
+│       ├── user_router.py
+│       └── auth_router.py
 │
 ├── .env
 ├── .gitignore
+```
+
+## Autenticazione
+
+Il progetto include un sistema di autenticazione completo con le seguenti funzionalità:
+
+### Registrazione
+- Endpoint: `POST /auth/register`
+- Campi richiesti: `name`, `surname`, `email`, `password`, `privacy_level` (numero intero >=1)
+- La password viene hashata con bcrypt prima del salvataggio
+- Controllo unicità email
+- Restituisce i dati utente registrati (senza password)
+
+### Login
+- Endpoint: `POST /auth/login`
+- Campi richiesti: `email`, `password`
+- Verifica password con bcrypt
+- Restituisce token JWT di accesso se credenziali valide
+
+### Sicurezza
+- Password hashate con bcrypt (salt automatico)
+- Token JWT con scadenza di 1 ora
+- Chiave segreta JWT configurabile via variabile d'ambiente `JWT_SECRET_KEY`
+
+### Collection Auth
+- Utilizza una collection separata `auth` per gli utenti autenticati
+- Campi: `name`, `surname`, `email`, `password` (hash), `privacy_level`
+
+### Esempi di utilizzo
+
+**Registrazione:**
+```json
+POST /auth/register
+{
+  "name": "Mario",
+  "surname": "Rossi",
+  "email": "mario@example.com",
+  "password": "password123",
+  "privacy_level": 1
+}
+```
+
+**Login:**
+```json
+POST /auth/login
+{
+  "email": "mario@example.com",
+  "password": "password123"
+}
+```
+
+Risposta login:
+```json
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
+  "token_type": "bearer"
+}
 ```
 
 ## Prerequisiti
@@ -151,12 +222,13 @@ Scaricare e installare MongoDB Compass dal sito ufficiale MongoDB, scegliendo la
 
 Aprire Compass e incollare la connection string copiata da Atlas. Sostituire, se necessario, username e password con le credenziali corrette del database user.
 
-### 2.3 Creazione del database e della collection
+### 2.3 Creazione del database e delle collection
 
 Una volta connessi:
 
-- creare il database `school_db`
-- creare la collection `users`
+- creare il database `users-crud`
+- creare la collection `users` (per CRUD utenti)
+- creare la collection `auth` (per autenticazione)
 
 ### 2.4 Inserimento di un documento manuale di prova
 
@@ -217,7 +289,7 @@ python -m venv .venv
 Installare i pacchetti necessari:
 
 ```bash
-pip install fastapi "uvicorn[standard]" pymongo python-dotenv email-validator
+pip install fastapi "uvicorn[standard]" pymongo python-dotenv email-validator bcrypt PyJWT
 ```
 
 Poi generare il file `requirements.txt`:
@@ -226,7 +298,7 @@ Poi generare il file `requirements.txt`:
 pip freeze > requirements.txt
 ```
 
-FastAPI genera automaticamente la documentazione OpenAPI e Swagger UI; PyMongo è il driver che consente all’applicazione Python di interagire con il cluster MongoDB.
+FastAPI genera automaticamente la documentazione OpenAPI e Swagger UI; PyMongo è il driver che consente all’applicazione Python di interagire con il cluster MongoDB. bcrypt gestisce l'hashing sicuro delle password, PyJWT crea e valida token JWT per l'autenticazione.
 
 ------
 
