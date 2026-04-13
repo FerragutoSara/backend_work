@@ -1,0 +1,563 @@
+id,skill,type
+1,".NET Core / .NET 6-8",framework
+2,"ASP.NET Web API",framework
+3,"Entity Framework Core",framework
+4,"Angular",framework
+5,"React",framework
+6,"Fairlearn",framework
+7,"AIF360",framework
+8,"LangChain",framework
+9,"Scikit-learn",framework
+10,"PyTorch",framework
+11,"TensorFlow",framework
+12,"Hugging Face",framework
+13,"Spring Boot",framework
+14,"Node.js",framework
+15,".NET Core",framework
+16,"RxJS",framework
+17,"State Management (NgRx)",framework
+18,"Bootstrap/Angular Material",framework
+19,"Spark",framework
+20,"Apache Spark",framework
+21,"Apache Kafka",framework
+22,"Hadoop",framework
+23,".NET",framework
+24,"STL / Boost",framework
+25,"Qt",framework
+26,"NIST CSF",framework
+27,"MITRE ATT&CK",framework
+28,"COBIT",framework
+29,"Serverless Framework",framework
+30,"FastAPI",framework
+31,"NIST Cybersecurity Framework",framework
+32,"CIS Controls",framework
+33,"OpenCV",framework
+34,"OpenSSL",framework
+35,"Libsodium",framework
+36,"ISO 27001",framework
+37,"NIST",framework
+38,"OWASP",framework
+39,"Pandas",framework
+40,"DBT",framework
+41,"NIST Privacy Framework",framework
+42,"Agile",framework
+43,"dbt (Data Build Tool)",framework
+44,"Apache Airflow",framework
+45,"Spring",framework
+46,"Hugging Face / LangChain",framework
+47,"Storybook",framework
+48,"Next.js",framework
+49,"AWS CDK",framework
+50,"Terragrunt",framework
+51,"Pytest",framework
+52,"RTOS (FreeRTOS, Zephyr, VxWorks)",framework
+53,"Embedded Linux & Yocto Project",framework
+54,"Qt Framework",framework
+55,"FreeRTOS",framework
+56,"Yocto Project",framework
+57,"Zephyr",framework
+58,"Tailwind CSS",framework
+59,"ITIL",framework
+60,"Unity",framework
+61,"Unreal Engine",framework
+62,"gRPC",framework
+63,"Gin",framework
+64,"REST APIs",framework
+65,"Scrum",framework
+66,"Hibernate / JPA",framework
+67,"JUnit",framework
+68,"Angular / React",framework
+69,"MLflow",framework
+70,"Android SDK",framework
+71,"Jetpack Compose",framework
+72,"Retrofit",framework
+73,"Dagger/Hilt",framework
+74,"Coroutines/Flow",framework
+75,"SwiftUI",framework
+76,"UIKit",framework
+77,"Combine",framework
+78,"Core Data",framework
+79,"spaCy",framework
+80,"TOGAF",framework
+81,"Netmiko/NAPALM",framework
+82,"Ansible",framework
+83,"Terraform",framework
+84,"Laravel",framework
+85,"Symfony",framework
+86,"React / Vue.js",framework
+87,"Backstage",framework
+88,"XGBoost",framework
+89,"PySpark",framework
+90,"Django",framework
+91,"Selenium",framework
+92,"Cypress",framework
+93,"Playwright",framework
+94,"Cucumber",framework
+95,"Appium",framework
+96,"Pandas/NumPy",framework
+97,"Redux",framework
+98,"Ruby on Rails",framework
+99,"RSpec",framework
+100,"Tokio",framework
+101,"Actix-web",framework
+102,"Cucumber (BDD)",framework
+103,"SOAR (XSOAR, Swimlane)",framework
+104,"Spring Security",framework
+105,"Open Policy Agent (OPA)",framework
+106,"Design Sprints",framework
+107,"Flask",framework
+108,"Scikit-Learn",framework
+109,"PowerShell DSC",framework
+110,".NET Framework",framework
+111,"PowerCLI",framework
+112,"WooCommerce",framework
+113,"Bootstrap",framework
+114,"Microservices",knowledge
+115,"REST API",knowledge
+116,"Agile/Scrum",knowledge
+117,"SOLID Principles",knowledge
+118,"Unit Testing/TDD",knowledge
+119,"Cloud Computing",knowledge
+120,"EU AI Act",knowledge
+121,"GDPR",knowledge
+122,"Risk Assessment",knowledge
+123,"Bias Mitigation",knowledge
+124,"Explainable AI (XAI)",knowledge
+125,"ISO/IEC 42001",knowledge
+126,"Deep Learning",knowledge
+127,"Generative AI",knowledge
+128,"Natural Language Processing (NLP)",knowledge
+129,"Mathematics & Statistics",knowledge
+130,"Cloud Computing (AWS/Azure/GCP)",knowledge
+131,"Computer Vision",knowledge
+132,"RESTful APIs",knowledge
+133,"Agile / Scrum",knowledge
+134,"OAuth2 / JWT",knowledge
+135,"WCAG 2.1/2.2",knowledge
+136,"WAI-ARIA",knowledge
+137,"Inclusive Design",knowledge
+138,"European Accessibility Act (EAA) Compliance",knowledge
+139,"Agile (Scrum)",knowledge
+140,"Unit Testing (Jasmine/Karma/Cypress)",knowledge
+141,"OWASP Top 10",knowledge
+142,"SAST/DAST/SCA",knowledge
+143,"Cloud Security (AWS/Azure)",knowledge
+144,"DevSecOps",knowledge
+145,"ETL/ELT",knowledge
+146,"Data Warehousing",knowledge
+147,"Azure",knowledge
+148,"Data Modeling",knowledge
+149,"Cloud Computing (AWS/Azure)",knowledge
+150,"Unit Testing (JUnit/NUnit)",knowledge
+151,"Data Governance",knowledge
+152,"Agile",knowledge
+153,"BPMN",knowledge
+154,"SDLC",knowledge
+155,"Scrum",knowledge
+156,"Cloud Computing (Azure/AWS)",knowledge
+157,"UML",knowledge
+158,"Linux",knowledge
+159,"OOP (Object-Oriented Programming)",knowledge
+160,"Multithreading & Concurrency",knowledge
+161,"Embedded Systems",knowledge
+162,"Design Patterns",knowledge
+163,"ISO 27001",knowledge
+164,"Risk Management",knowledge
+165,"CISSP / CISM",knowledge
+166,"Cloud Security (Azure/AWS)",knowledge
+167,"NIS2 / DORA",knowledge
+168,"Security",knowledge
+169,"CI/CD",knowledge
+170,"FinOps",knowledge
+171,"CI/CD Pipelines",knowledge
+172,"Infrastructure as Code (IaC)",knowledge
+173,"Agile (Scrum/Kanban)",knowledge
+174,"Cloud Security",knowledge
+175,"Networking (VPC, DNS, BGP)",knowledge
+176,"English Proficiency",knowledge
+177,"IAM (Identity and Access Management)",knowledge
+178,"GDPR Compliance",knowledge
+179,"Identity and Access Management (IAM)",knowledge
+180,"Object Detection & Segmentation",knowledge
+181,"MLOps",knowledge
+182,"Mathematics & Linear Algebra",knowledge
+183,"English (Professional Proficiency)",knowledge
+184,"PKI (Public Key Infrastructure)",knowledge
+185,"Blockchain & Smart Contracts",knowledge
+186,"Post-Quantum Cryptography (PQC)",knowledge
+187,"Zero-Knowledge Proofs (ZKP)",knowledge
+188,"ISO 27001 / NIST Standards",knowledge
+189,"Network Security",knowledge
+190,"Incident Response",knowledge
+191,"Vulnerability Management",knowledge
+192,"Data Visualization",knowledge
+193,"Statistics",knowledge
+194,"ETL",knowledge
+195,"ETL/ELT Processes",knowledge
+196,"Data Governance & GDPR",knowledge
+197,"NoSQL",knowledge
+198,"Hardware Troubleshooting",knowledge
+199,"Networking (TCP/IP, DNS)",knowledge
+200,"Fiber and Copper Cabling",knowledge
+201,"Linux/Unix OS",knowledge
+202,"HVAC and Electrical Systems",knowledge
+203,"Physical Security Protocols",knowledge
+204,"ITIL Framework",knowledge
+205,"GDPR (EU Regulation 2016/679)",knowledge
+206,"DPIA (Data Protection Impact Assessment)",knowledge
+207,"Italian Privacy Code (D.Lgs. 196/03)",knowledge
+208,"Risk Management & Assessment",knowledge
+209,"Privacy by Design & Default",knowledge
+210,"ISO/IEC 27001",knowledge
+211,"Cybersecurity Fundamentals",knowledge
+212,"Audit & Compliance Reporting",knowledge
+213,"Machine Learning",knowledge
+214,"Data Quality",knowledge
+215,"Master Data Management (MDM)",knowledge
+216,"Metadata Management",knowledge
+217,"Data Lineage",knowledge
+218,"DAMA-DMBOK",knowledge
+219,"Cloud Computing (Azure, AWS, GCP)",knowledge
+220,"Data Modeling (Kimball/Inmon)",knowledge
+221,"GDPR & Data Governance",knowledge
+222,"Performance Tuning",knowledge
+223,"Backup & Recovery",knowledge
+224,"High Availability (RAC/AlwaysOn)",knowledge
+225,"Linux/Unix Administration",knowledge
+226,"Database Security",knowledge
+227,"Neural Network Architectures (Transformers, CNNs, RNNs)",knowledge
+228,"English Language",knowledge
+229,"Accessibility (WCAG)",knowledge
+230,"Design Tokens",knowledge
+231,"Atomic Design",knowledge
+232,"Linux System Administration",knowledge
+233,"DevSecOps/Security",knowledge
+234,"Incident Response (DFIR)",knowledge
+235,"Chain of Custody",knowledge
+236,"Malware Analysis",knowledge
+237,"GDPR & Privacy Law",knowledge
+238,"Italian Law 48/2008",knowledge
+239,"ARM Cortex-M Architecture",knowledge
+240,"Communication Protocols (I2C, SPI, UART, CAN)",knowledge
+241,"Cybersecurity for Embedded Systems",knowledge
+242,"IoT Connectivity (BLE, WiFi, MQTT)",knowledge
+243,"TOGAF",knowledge
+244,"Cybersecurity",knowledge
+245,"Data Architecture",knowledge
+246,"IT Governance",knowledge
+247,"API Management",knowledge
+248,"Digital Transformation",knowledge
+249,"Communication Protocols (I2C/SPI/UART)",knowledge
+250,"Microcontroller Architectures (ARM Cortex)",knowledge
+251,"Real-time Operating Systems (RTOS) Concepts",knowledge
+252,"Cybersecurity/Secure Boot",knowledge
+253,"REST APIs",knowledge
+254,"Unit Testing (Jest/Cypress)",knowledge
+255,"Micro-frontends",knowledge
+256,"Risk Assessment & Management",knowledge
+257,"Internal Audit",knowledge
+258,"NIS2 / DORA Compliance",knowledge
+259,"NIST CSF",knowledge
+260,"SOC2",knowledge
+261,"Object-Oriented Programming (OOP)",knowledge
+262,"Mathematics for 3D",knowledge
+263,"Mobile Development (iOS/Android)",knowledge
+264,"XR/AR/VR Development",knowledge
+265,"Shaders (HLSL/GLSL)",knowledge
+266,"Unit Testing",knowledge
+267,"SAML/OAuth/OIDC",knowledge
+268,"Cloud Security (Azure/AWS/GCP)",knowledge
+269,"IGA (Identity Governance and Administration)",knowledge
+270,"PAM (Privileged Access Management)",knowledge
+271,"Zero Trust Architecture",knowledge
+272,"Vendor Management",knowledge
+273,"Project Management",knowledge
+274,"DevOps",knowledge
+275,"SIEM",knowledge
+276,"Digital Forensics (DFIR)",knowledge
+277,"NLP",knowledge
+278,"Generative AI (LLM/RAG)",knowledge
+279,"Reverse Engineering",knowledge
+280,"Static and Dynamic Analysis",knowledge
+281,"MITRE ATT&CK",knowledge
+282,"Threat Intelligence",knowledge
+283,"Windows Internals",knowledge
+284,"Network Protocols",knowledge
+285,"MVVM/MVI Architecture",knowledge
+286,"Clean Architecture",knowledge
+287,"Unit Testing/UI Testing",knowledge
+288,"MVVM",knowledge
+289,"Unit Testing (XCTest)",knowledge
+290,"Large Language Models (LLMs)",knowledge
+291,"Retrieval-Augmented Generation (RAG)",knowledge
+292,"ITIL",knowledge
+293,"Cloud Networking (Azure/AWS/GCP)",knowledge
+294,"SD-WAN",knowledge
+295,"Network Security / Zero Trust",knowledge
+296,"Routing & Switching (BGP/OSPF/MPLS)",knowledge
+297,"TCP/IP & Networking Protocols",knowledge
+298,"Routing & Switching (BGP, OSPF)",knowledge
+299,"Network Security (Firewalls, VPN)",knowledge
+300,"Cloud Networking (Azure/AWS)",knowledge
+301,"VPN Technologies (IPsec/SSL)",knowledge
+302,"English Language Proficiency",knowledge
+303,"E-commerce (Magento/PrestaShop)",knowledge
+304,"Active Directory",knowledge
+305,"Mobile Application Security",knowledge
+306,"Infrastructure as Code",knowledge
+307,"Git",knowledge
+308,"Statistical Analysis & Time Series",knowledge
+309,"Risk & Credit Scoring",knowledge
+310,"Generative AI & LLMs",knowledge
+311,"API Testing",knowledge
+312,"ISTQB Certification",knowledge
+313,"Regression Testing",knowledge
+314,"English (B2/C1)",knowledge
+315,"Financial Mathematics",knowledge
+316,"Derivatives Pricing",knowledge
+317,"Stochastic Calculus",knowledge
+318,"Testing (Jest/RTL)",knowledge
+319,"GraphQL",knowledge
+320,"WebAssembly",knowledge
+321,"TCP/IP Networking",knowledge
+322,"Cloud Security (Azure, AWS)",knowledge
+323,"NIST / ISO 27001",knowledge
+324,"NIST Cybersecurity Framework",knowledge
+325,"Design Thinking",knowledge
+326,"Service Blueprinting",knowledge
+327,"Customer Journey Mapping",knowledge
+328,"User Research",knowledge
+329,"Workshop Facilitation",knowledge
+330,"English",knowledge
+331,"Stakeholder Management",knowledge
+332,"Observability",knowledge
+333,"Microservices Architecture",knowledge
+334,"DevOps/CI-CD",knowledge
+335,"Domain-Driven Design (DDD)",knowledge
+336,"Security/IAM",knowledge
+337,"API Design",knowledge
+338,"Statistical Modeling",knowledge
+339,"Hypothesis Testing",knowledge
+340,"Clinical Trials (CDISC/ADaM)",knowledge
+341,"Big Data",knowledge
+342,"SAN/NAS Architectures",knowledge
+343,"Fibre Channel / iSCSI",knowledge
+344,"Backup & Disaster Recovery",knowledge
+345,"Linux Administration",knowledge
+346,"Networking (TCP/IP, DNS, VPN)",knowledge
+347,"Networking (DNS, DHCP, TCP/IP, VPN)",knowledge
+348,"Microsoft Azure",knowledge
+349,"Cybersecurity & System Hardening",knowledge
+350,"Cybersecurity & Hardening",knowledge
+351,"SDLC (Software Development Life Cycle)",knowledge
+352,"System Design & Architecture",knowledge
+353,"User-Centered Design",knowledge
+354,"Content Strategy",knowledge
+355,"UX Research",knowledge
+356,"Design Systems",knowledge
+357,"Storage (SAN/NAS/vSAN)",knowledge
+358,"CVSS (Common Vulnerability Scoring System)",knowledge
+359,"Patch Management",knowledge
+360,"SEO Principles",knowledge
+361,"UX/UI Design",knowledge
+362,"Performance Optimization",knowledge
+363,"C#",language
+364,"SQL",language
+365,"TypeScript",language
+366,"JavaScript",language
+367,"Python",language
+368,"C++",language
+369,"Java",language
+370,"HTML/CSS",language
+371,"JavaScript (ES6+)",language
+372,"DAX",language
+373,"C#/.NET",language
+374,"Node.js",language
+375,"Scala",language
+376,"Bash/Shell Scripting",language
+377,"Go",language
+378,"Bash",language
+379,"PowerShell",language
+380,"C",language
+381,"Rust",language
+382,"R",language
+383,"PL/SQL",language
+384,"T-SQL",language
+385,"CSS/Sass",language
+386,"Bash/Shell",language
+387,"Bash/PowerShell",language
+388,"CSS/HTML5",language
+389,"C/C++",language
+390,"Assembly (x86/64)",language
+391,"Kotlin",language
+392,"Swift",language
+393,"Objective-C",language
+394,"PHP",language
+395,"MySQL / SQL",language
+396,"SAS",language
+397,"JavaScript/TypeScript",language
+398,"MATLAB",language
+399,"CSS/SCSS",language
+400,"Ruby",language
+401,"PowerShell / Bash",language
+402,"Bash / PowerShell",language
+403,"Go (Golang)",language
+404,"Shell Scripting (Bash)",language
+405,"SQL Server",language
+406,"English",language
+407,"Italian",language
+408,"HTML5/CSS3",language
+409,"SQL/MySQL",language
+410,"Azure",software
+411,"Git",software
+412,"Docker",software
+413,"SQL Server",software
+414,"Kubernetes",software
+415,"Microsoft Azure",software
+416,"OneTrust",software
+417,"Jupyter",software
+418,"OpenAPI / Swagger",software
+419,"AWS",software
+420,"Screen Readers (NVDA, JAWS, VoiceOver)",software
+421,"Automated Testing Tools (Axe, Lighthouse)",software
+422,"Figma",software
+423,"Docker & Kubernetes",software
+424,"Snyk",software
+425,"Burp Suite",software
+426,"Power BI",software
+427,"Tableau",software
+428,"Snowflake",software
+429,"Qlik Sense",software
+430,"PostgreSQL",software
+431,"Databricks",software
+432,"Docker/Kubernetes",software
+433,"GCP",software
+434,"Jira",software
+435,"SAP",software
+436,"Salesforce",software
+437,"Excel (Advanced/VBA)",software
+438,"CMake",software
+439,"CI/CD (Jenkins/GitLab)",software
+440,"SIEM Tools (Splunk, QRadar)",software
+441,"GRC Software",software
+442,"EDR/XDR Solutions",software
+443,"Terraform",software
+444,"Amazon Web Services (AWS)",software
+445,"Kubernetes (K8s)",software
+446,"Ansible",software
+447,"Google Cloud Platform (GCP)",software
+448,"Microsoft Azure (Sentinel/Defender)",software
+449,"SIEM & SOC Tools",software
+450,"AWS Security Services",software
+451,"AWS (Amazon Web Services)",software
+452,"NVIDIA TensorRT",software
+453,"HSM (Hardware Security Modules)",software
+454,"HashiCorp Vault",software
+455,"Wireshark",software
+456,"Splunk",software
+457,"Microsoft Sentinel",software
+458,"CrowdStrike",software
+459,"Excel",software
+460,"BigQuery",software
+461,"Power BI / Tableau",software
+462,"ServiceNow",software
+463,"Zabbix/Nagios",software
+464,"Apache Airflow",software
+465,"Microsoft Excel",software
+466,"PowerBI",software
+467,"SAP MDG/ERP",software
+468,"Collibra",software
+469,"Informatica Axon",software
+470,"Microsoft Purview",software
+471,"Informatica/Talend",software
+472,"Oracle Database",software
+473,"Microsoft SQL Server",software
+474,"MongoDB",software
+475,"MLOps (MLflow, DVC)",software
+476,"Tokens Studio",software
+477,"Jenkins",software
+478,"GitLab CI",software
+479,"Prometheus/Grafana",software
+480,"EnCase",software
+481,"Magnet AXIOM",software
+482,"FTK (Forensic Toolkit)",software
+483,"Cellebrite",software
+484,"Volatility",software
+485,"STM32Cube / HAL",software
+486,"MATLAB / Simulink",software
+487,"Oscilloscopes & Logic Analyzers",software
+488,"ArchiMate",software
+489,"STM32CubeIDE",software
+490,"Logic Analyzers/Oscilloscopes",software
+491,"ServiceNow GRC",software
+492,"SAP GRC",software
+493,"Visual Studio",software
+494,"Redis",software
+495,"Microsoft Entra ID (Azure AD)",software
+496,"SailPoint",software
+497,"CyberArk",software
+498,"Okta",software
+499,"Microsoft 365",software
+500,"Maven / Gradle",software
+501,"IDA Pro",software
+502,"Ghidra",software
+503,"EDR/XDR Systems",software
+504,"YARA",software
+505,"Sandbox Environments (Cuckoo/Any.Run)",software
+506,"Android Studio",software
+507,"Firebase",software
+508,"Jira/Confluence",software
+509,"Xcode",software
+510,"CI/CD (Fastlane/Jenkins)",software
+511,"Cisco (Catalyst/Nexus/Meraki)",software
+512,"Fortinet/Palo Alto Networks",software
+513,"Check Point",software
+514,"F5 Load Balancers",software
+515,"Cisco IOS/NX-OS",software
+516,"Fortinet FortiGate",software
+517,"Palo Alto Networks",software
+518,"Cisco DNA Center",software
+519,"Cisco ASA/Firepower",software
+520,"Metasploit",software
+521,"Nmap",software
+522,"Nessus",software
+523,"Kali Linux",software
+524,"Prometheus",software
+525,"Cloud Computing (Azure/AWS/GCP)",software
+526,"Tableau / Power BI",software
+527,"Hadoop / Hive",software
+528,"Postman",software
+529,"Confluence",software
+530,"Excel/VBA",software
+531,"Bloomberg Terminal",software
+532,"Linux",software
+533,"Postman/Insomnia",software
+534,"SIEM (Splunk, QRadar, Sentinel)",software
+535,"EDR Solutions (CrowdStrike, SentinelOne)",software
+536,"Microsoft Azure / Entra ID",software
+537,"SIEM (Splunk / Microsoft Sentinel)",software
+538,"Miro",software
+539,"Adobe Creative Suite",software
+540,"Kafka",software
+541,"SAS",software
+542,"NetApp (ONTAP)",software
+543,"Dell EMC (Unity/PowerStore)",software
+544,"Veeam Backup & Replication",software
+545,"VMware vSphere",software
+546,"Commvault",software
+547,"Brocade / Cisco SAN Switches",software
+548,"Windows Server (2016/2019/2022)",software
+549,"Active Directory & Group Policy",software
+550,"VMware vSphere / ESXi",software
+551,"Microsoft 365 / Exchange Online",software
+552,"Linux (RHEL/Ubuntu/CentOS)",software
+553,"Ansible & Terraform",software
+554,"Windows Server & Active Directory",software
+555,"Microsoft Project",software
+556,"Tableau / PowerBI",software
+557,"Frontitude",software
+558,"Veeam",software
+559,"Qualys",software
+560,"Tenable / Nessus",software
+561,"WordPress Core",software
+562,"Elementor/Divi",software
