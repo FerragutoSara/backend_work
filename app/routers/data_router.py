@@ -1,11 +1,15 @@
 from fastapi import APIRouter, HTTPException
 from app.core.csv_utils import CSVDataLoader
+from pathlib import Path
 
 router = APIRouter(prefix="/data", tags=["data"])
 
-areas_loader = CSVDataLoader("area.csv")
-job_titles_loader = CSVDataLoader("job_title.csv")
-skills_loader = CSVDataLoader("skills.csv")
+data_dir = Path(__file__).resolve().parents[2] / "data"
+general_data_dir = Path(__file__).resolve().parents[2] / "general_data"
+
+areas_loader = CSVDataLoader("area.csv", data_dir)
+job_titles_loader = CSVDataLoader("job_title.csv", data_dir)
+skills_loader = CSVDataLoader("skills.csv", general_data_dir)
 
 
 @router.get("/areas")
