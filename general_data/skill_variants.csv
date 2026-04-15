@@ -1,0 +1,193 @@
+variant,raw_type,canonical_name,canonical_type
+.NET Core / .NET 6-8,framework,.NET Core,framework
+Spark,framework,Apache Spark,framework
+STL / Boost,framework,STL/Boost,framework
+NIST Cybersecurity Framework,framework,NIST CSF,framework
+DBT,framework,dbt,framework
+Agile,framework,Agile/Scrum,framework
+dbt (Data Build Tool),framework,dbt,framework
+Hugging Face / LangChain,framework,Hugging Face/LangChain,framework
+"RTOS (FreeRTOS, Zephyr, VxWorks)",framework,RTOS,framework
+Embedded Linux & Yocto Project,framework,Embedded Linux & Yocto,framework
+Qt Framework,framework,Qt,framework
+Scrum,framework,Agile/Scrum,framework
+Hibernate / JPA,framework,Hibernate/JPA,framework
+Angular / React,framework,React,framework
+React / Vue.js,framework,React,framework
+Pandas/NumPy,framework,Pandas,framework
+Cucumber (BDD),framework,Cucumber,framework
+"SOAR (XSOAR, Swimlane)",framework,SOAR,framework
+Open Policy Agent (OPA),framework,Open Policy Agent,framework
+Scikit-Learn,framework,Scikit-learn,framework
+Microsoft Azure,software,Azure,software
+OpenAPI / Swagger,software,OpenAPI/Swagger,software
+"Screen Readers (NVDA, JAWS, VoiceOver)",software,Screen Readers,software
+"Automated Testing Tools (Axe, Lighthouse)",software,Automated Testing Tools (A11y),software
+Docker & Kubernetes,software,Docker/Kubernetes,software
+Excel (Advanced/VBA),software,Excel,software
+"SIEM Tools (Splunk, QRadar)",software,SIEM (Splunk/QRadar/Sentinel),software
+EDR/XDR Solutions,software,EDR/XDR,software
+Amazon Web Services (AWS),software,AWS,software
+Kubernetes (K8s),software,Kubernetes,software
+Google Cloud Platform (GCP),software,GCP,software
+Microsoft Azure (Sentinel/Defender),software,Azure,software
+SIEM & SOC Tools,software,SIEM (Splunk/QRadar/Sentinel),software
+AWS Security Services,software,AWS,software
+AWS (Amazon Web Services),software,AWS,software
+HSM (Hardware Security Modules),software,HSM,software
+Microsoft Excel,software,Excel,software
+PowerBI,software,Power BI,software
+"MLOps (MLflow, DVC)",software,MLOps (MLflow/DVC),software
+FTK (Forensic Toolkit),software,FTK,software
+STM32Cube / HAL,software,STM32Cube,software
+MATLAB / Simulink,software,MATLAB/Simulink,software
+Logic Analyzers/Oscilloscopes,software,Oscilloscopes & Logic Analyzers,software
+Microsoft Entra ID (Azure AD),software,Microsoft Entra ID,software
+Maven / Gradle,software,Maven/Gradle,software
+EDR/XDR Systems,software,EDR/XDR,software
+Sandbox Environments (Cuckoo/Any.Run),software,Sandbox Environments,software
+Jira/Confluence,software,Jira,software
+Cisco (Catalyst/Nexus/Meraki),software,Cisco,software
+Fortinet/Palo Alto Networks,software,Fortinet/Palo Alto,software
+Tableau / Power BI,software,Power BI / Tableau,software
+Hadoop / Hive,software,Hadoop,software
+Excel/VBA,software,Excel,software
+Postman/Insomnia,software,Postman,software
+"SIEM (Splunk, QRadar, Sentinel)",software,SIEM (Splunk/QRadar/Sentinel),software
+"EDR Solutions (CrowdStrike, SentinelOne)",software,EDR/XDR,software
+Microsoft Azure / Entra ID,software,Azure,software
+SIEM (Splunk / Microsoft Sentinel),software,SIEM (Splunk/QRadar/Sentinel),software
+Kafka,software,Apache Kafka,software
+NetApp (ONTAP),software,NetApp,software
+Dell EMC (Unity/PowerStore),software,Dell EMC,software
+Veeam Backup & Replication,software,Veeam,software
+Brocade / Cisco SAN Switches,software,Brocade/Cisco SAN Switches,software
+Windows Server (2016/2019/2022),software,Windows Server,software
+VMware vSphere / ESXi,software,VMware vSphere,software
+Microsoft 365 / Exchange Online,software,Microsoft 365,software
+Linux (RHEL/Ubuntu/CentOS),software,Linux,software
+Ansible & Terraform,software,Ansible/Terraform,software
+Tableau / PowerBI,software,Power BI / Tableau,software
+Tenable / Nessus,software,Tenable/Nessus,software
+REST API,knowledge,REST APIs,knowledge
+Unit Testing/TDD,knowledge,Unit Testing,knowledge
+Cloud Computing,knowledge,Cloud Computing (AWS/Azure/GCP),knowledge
+Risk Assessment,knowledge,Risk Management,knowledge
+Explainable AI (XAI),knowledge,Explainable AI,knowledge
+Generative AI,knowledge,Generative AI & LLMs,knowledge
+Natural Language Processing (NLP),knowledge,NLP,knowledge
+RESTful APIs,knowledge,REST APIs,knowledge
+Agile / Scrum,knowledge,Agile/Scrum,knowledge
+OAuth2 / JWT,knowledge,OAuth2/JWT,knowledge
+European Accessibility Act (EAA) Compliance,knowledge,European Accessibility Act,knowledge
+Agile (Scrum),knowledge,Agile/Scrum,knowledge
+Cloud Security (AWS/Azure),knowledge,Cloud Security (AWS/Azure/GCP),knowledge
+Cloud Computing (AWS/Azure),knowledge,Cloud Computing (AWS/Azure/GCP),knowledge
+Agile,knowledge,Agile/Scrum,knowledge
+Scrum,knowledge,Agile/Scrum,knowledge
+Cloud Computing (Azure/AWS),knowledge,Cloud Computing (AWS/Azure/GCP),knowledge
+OOP (Object-Oriented Programming),knowledge,OOP,knowledge
+CISSP / CISM,knowledge,CISSP/CISM,knowledge
+Cloud Security (Azure/AWS),knowledge,Cloud Security (AWS/Azure/GCP),knowledge
+NIS2 / DORA,knowledge,NIS2/DORA,knowledge
+CI/CD Pipelines,knowledge,CI/CD,knowledge
+Infrastructure as Code (IaC),knowledge,Infrastructure as Code,knowledge
+Agile (Scrum/Kanban),knowledge,Agile/Scrum,knowledge
+Cloud Security,knowledge,Cloud Security (AWS/Azure/GCP),knowledge
+"Networking (VPC, DNS, BGP)",knowledge,"Networking (TCP/IP, DNS, VPN)",knowledge
+English Proficiency,knowledge,English,knowledge
+IAM (Identity and Access Management),knowledge,IAM,knowledge
+GDPR Compliance,knowledge,GDPR,knowledge
+Identity and Access Management (IAM),knowledge,IAM,knowledge
+Mathematics & Linear Algebra,knowledge,Mathematics & Statistics,knowledge
+English (Professional Proficiency),knowledge,English,knowledge
+PKI (Public Key Infrastructure),knowledge,PKI,knowledge
+Post-Quantum Cryptography (PQC),knowledge,Post-Quantum Cryptography,knowledge
+Zero-Knowledge Proofs (ZKP),knowledge,Zero-Knowledge Proofs,knowledge
+ISO 27001 / NIST Standards,knowledge,ISO 27001,knowledge
+ETL,knowledge,ETL/ELT,knowledge
+ETL/ELT Processes,knowledge,ETL/ELT,knowledge
+Data Governance & GDPR,knowledge,Data Governance,knowledge
+"Networking (TCP/IP, DNS)",knowledge,"Networking (TCP/IP, DNS, VPN)",knowledge
+Linux/Unix OS,knowledge,Linux,knowledge
+ITIL Framework,knowledge,ITIL,knowledge
+GDPR (EU Regulation 2016/679),knowledge,GDPR,knowledge
+DPIA (Data Protection Impact Assessment),knowledge,DPIA,knowledge
+Italian Privacy Code (D.Lgs. 196/03),knowledge,Italian Privacy Code,knowledge
+Risk Management & Assessment,knowledge,Risk Management,knowledge
+Privacy by Design & Default,knowledge,Privacy by Design,knowledge
+ISO/IEC 27001,knowledge,ISO 27001,knowledge
+Cybersecurity Fundamentals,knowledge,Cybersecurity,knowledge
+Master Data Management (MDM),knowledge,Master Data Management,knowledge
+"Cloud Computing (Azure, AWS, GCP)",knowledge,Cloud Computing (AWS/Azure/GCP),knowledge
+Data Modeling (Kimball/Inmon),knowledge,Data Modeling,knowledge
+GDPR & Data Governance,knowledge,Data Governance,knowledge
+High Availability (RAC/AlwaysOn),knowledge,High Availability,knowledge
+Linux/Unix Administration,knowledge,Linux,knowledge
+"Neural Network Architectures (Transformers, CNNs, RNNs)",knowledge,Neural Network Architectures,knowledge
+English Language,knowledge,English,knowledge
+Linux System Administration,knowledge,Linux,knowledge
+DevSecOps/Security,knowledge,DevSecOps,knowledge
+Incident Response (DFIR),knowledge,Incident Response,knowledge
+GDPR & Privacy Law,knowledge,GDPR,knowledge
+ARM Cortex-M Architecture,knowledge,ARM Cortex-M,knowledge
+"Communication Protocols (I2C, SPI, UART, CAN)",knowledge,Communication Protocols (I2C/SPI/UART),knowledge
+"IoT Connectivity (BLE, WiFi, MQTT)",knowledge,IoT Connectivity,knowledge
+Microcontroller Architectures (ARM Cortex),knowledge,ARM Cortex-M,knowledge
+Real-time Operating Systems (RTOS) Concepts,knowledge,RTOS Concepts,knowledge
+Cybersecurity/Secure Boot,knowledge,Cybersecurity,knowledge
+Risk Assessment & Management,knowledge,Risk Management,knowledge
+NIS2 / DORA Compliance,knowledge,NIS2/DORA,knowledge
+Object-Oriented Programming (OOP),knowledge,OOP,knowledge
+Mobile Development (iOS/Android),knowledge,Mobile Development,knowledge
+Shaders (HLSL/GLSL),knowledge,Shaders,knowledge
+Cloud Security (Azure/AWS/GCP),knowledge,Cloud Security (AWS/Azure/GCP),knowledge
+IGA (Identity Governance and Administration),knowledge,IGA,knowledge
+PAM (Privileged Access Management),knowledge,PAM,knowledge
+Digital Forensics (DFIR),knowledge,Digital Forensics,knowledge
+Generative AI (LLM/RAG),knowledge,Generative AI & LLMs,knowledge
+MVVM/MVI Architecture,knowledge,MVVM/MVI,knowledge
+Unit Testing/UI Testing,knowledge,Unit Testing,knowledge
+Large Language Models (LLMs),knowledge,LLMs,knowledge
+Retrieval-Augmented Generation (RAG),knowledge,RAG,knowledge
+Cloud Networking (Azure/AWS/GCP),knowledge,Cloud Networking,knowledge
+Network Security / Zero Trust,knowledge,Network Security,knowledge
+Routing & Switching (BGP/OSPF/MPLS),knowledge,Routing & Switching,knowledge
+"Routing & Switching (BGP, OSPF)",knowledge,Routing & Switching,knowledge
+"Network Security (Firewalls, VPN)",knowledge,Network Security,knowledge
+Cloud Networking (Azure/AWS),knowledge,Cloud Networking,knowledge
+VPN Technologies (IPsec/SSL),knowledge,VPN Technologies,knowledge
+English Language Proficiency,knowledge,English,knowledge
+E-commerce (Magento/PrestaShop),knowledge,E-commerce,knowledge
+Statistical Analysis & Time Series,knowledge,Statistics,knowledge
+English (B2/C1),knowledge,English,knowledge
+TCP/IP Networking,knowledge,TCP/IP & Networking Protocols,knowledge
+"Cloud Security (Azure, AWS)",knowledge,Cloud Security (AWS/Azure/GCP),knowledge
+NIST / ISO 27001,knowledge,ISO 27001,knowledge
+NIST Cybersecurity Framework,knowledge,NIST CSF,knowledge
+Microservices Architecture,knowledge,Microservices,knowledge
+DevOps/CI-CD,knowledge,CI/CD,knowledge
+Domain-Driven Design (DDD),knowledge,Domain-Driven Design,knowledge
+Statistical Modeling,knowledge,Statistics,knowledge
+Clinical Trials (CDISC/ADaM),knowledge,Clinical Trials,knowledge
+Fibre Channel / iSCSI,knowledge,Fibre Channel/iSCSI,knowledge
+Linux Administration,knowledge,Linux,knowledge
+"Networking (DNS, DHCP, TCP/IP, VPN)",knowledge,"Networking (TCP/IP, DNS, VPN)",knowledge
+Microsoft Azure,knowledge,Azure,knowledge
+Cybersecurity & System Hardening,knowledge,Cybersecurity & Hardening,knowledge
+SDLC (Software Development Life Cycle),knowledge,SDLC,knowledge
+Storage (SAN/NAS/vSAN),knowledge,SAN/NAS Architectures,knowledge
+CVSS (Common Vulnerability Scoring System),knowledge,CVSS,knowledge
+JavaScript (ES6+),language,JavaScript,Language
+Bash/Shell Scripting,language,Bash/Shell,Language
+Bash,language,Bash/Shell,Language
+CSS/HTML5,language,HTML/CSS,Language
+Assembly (x86/64),language,Assembly,Language
+MySQL / SQL,language,SQL,Language
+CSS/SCSS,language,CSS/Sass,Language
+PowerShell / Bash,language,Bash/PowerShell,Language
+Bash / PowerShell,language,Bash/PowerShell,Language
+Go (Golang),language,Go,Language
+Shell Scripting (Bash),language,Bash/Shell,Language
+HTML5/CSS3,language,HTML/CSS,Language
+SQL/MySQL,language,SQL,Language

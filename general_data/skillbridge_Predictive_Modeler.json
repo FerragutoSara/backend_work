@@ -1,0 +1,35 @@
+{
+  "profilo_target": "Predictive Modeler",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.9444,
+      "SQL": 0.8611,
+      "R": 0.3889,
+      "SAS": 0.2083
+    },
+    "software": {
+      "Cloud Computing (Azure/AWS/GCP)": 0.5833,
+      "Tableau / Power BI": 0.4444,
+      "Hadoop / Hive": 0.2778
+    },
+    "frameworks": {
+      "Scikit-learn": 0.75,
+      "XGBoost": 0.625,
+      "TensorFlow": 0.5278,
+      "PySpark": 0.4167
+    },
+    "conoscenze_teoriche": {
+      "Machine Learning": 1,
+      "Statistical Analysis & Time Series": 0.9028,
+      "Risk & Credit Scoring": 0.4722,
+      "Generative AI & LLMs": 0.3056,
+      "English Proficiency": 0.8333
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

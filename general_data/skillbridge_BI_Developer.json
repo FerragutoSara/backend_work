@@ -1,0 +1,33 @@
+{
+  "profilo_target": "BI Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.9529,
+      "DAX": 0.5647,
+      "Python": 0.4941
+    },
+    "software": {
+      "Power BI": 0.7294,
+      "Tableau": 0.3647,
+      "Snowflake": 0.2118,
+      "Qlik Sense": 0.1412
+    },
+    "frameworks": {
+      "Spark": 0.1647
+    },
+    "conoscenze_teoriche": {
+      "ETL/ELT": 0.6471,
+      "Data Warehousing": 0.6118,
+      "Azure": 0.4471,
+      "Data Modeling": 0.5294,
+      "Agile/Scrum": 0.2941,
+      "Cloud Computing": 0.4706
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

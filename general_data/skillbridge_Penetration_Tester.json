@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Penetration Tester",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.7436,
+      "Bash": 0.5385,
+      "PowerShell": 0.359
+    },
+    "software": {
+      "Burp Suite": 0.8718,
+      "Metasploit": 0.6667,
+      "Nmap": 0.6154,
+      "Nessus": 0.4487,
+      "Kali Linux": 0.2821,
+      "Wireshark": 0.2564
+    },
+    "frameworks": {
+      "MITRE ATT&CK": 0.4103
+    },
+    "conoscenze_teoriche": {
+      "OWASP Top 10": 0.7949,
+      "Network Security": 0.7051,
+      "Active Directory": 0.4872,
+      "Cloud Security (AWS/Azure)": 0.3846,
+      "Mobile Application Security": 0.3077
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

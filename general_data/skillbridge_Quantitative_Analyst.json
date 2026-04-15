@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Quantitative Analyst",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.9067,
+      "SQL": 0.6933,
+      "C++": 0.3733,
+      "MATLAB": 0.2933,
+      "R": 0.16
+    },
+    "software": {
+      "Excel/VBA": 0.64,
+      "AWS": 0.24,
+      "Bloomberg Terminal": 0.2
+    },
+    "frameworks": {
+      "Pandas/NumPy": 0.4667,
+      "Scikit-learn": 0.1867
+    },
+    "conoscenze_teoriche": {
+      "Financial Mathematics": 0.8667,
+      "Risk Management": 0.6,
+      "Machine Learning": 0.5067,
+      "Derivatives Pricing": 0.3333,
+      "Stochastic Calculus": 0.1333
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

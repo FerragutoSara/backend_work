@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Firmware Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "C": 0.9559,
+      "C++": 0.6176,
+      "Python": 0.4118
+    },
+    "software": {
+      "Git": 0.5735,
+      "STM32CubeIDE": 0.3529,
+      "Logic Analyzers/Oscilloscopes": 0.3235
+    },
+    "frameworks": {
+      "FreeRTOS": 0.5,
+      "Yocto Project": 0.2794,
+      "Zephyr": 0.2206
+    },
+    "conoscenze_teoriche": {
+      "Communication Protocols (I2C/SPI/UART)": 0.7647,
+      "Microcontroller Architectures (ARM Cortex)": 0.8529,
+      "Real-time Operating Systems (RTOS) Concepts": 0.7059,
+      "Agile/Scrum": 0.2647,
+      "Cybersecurity/Secure Boot": 0.1765
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

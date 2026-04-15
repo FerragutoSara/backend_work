@@ -1,0 +1,33 @@
+{
+  "profilo_target": "AI Ethicist / AI Governance Specialist",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.6094,
+      "SQL": 0.3438
+    },
+    "software": {
+      "Microsoft Azure": 0.2344,
+      "OneTrust": 0.1719
+    },
+    "frameworks": {
+      "Fairlearn": 0.25,
+      "AIF360": 0.2188,
+      "LangChain": 0.1563,
+      "Scikit-learn": 0.1406
+    },
+    "conoscenze_teoriche": {
+      "EU AI Act": 0.9063,
+      "GDPR": 0.7969,
+      "Risk Assessment": 0.7656,
+      "Bias Mitigation": 0.6875,
+      "Explainable AI (XAI)": 0.5,
+      "ISO/IEC 42001": 0.2813
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

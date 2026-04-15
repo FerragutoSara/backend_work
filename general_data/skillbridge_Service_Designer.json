@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Service Designer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "HTML/CSS": 0.16
+    },
+    "software": {
+      "Figma": 0.8267,
+      "Miro": 0.7333,
+      "Adobe Creative Suite": 0.5067
+    },
+    "frameworks": {
+      "Agile": 0.64,
+      "Scrum": 0.56,
+      "Design Sprints": 0.4667
+    },
+    "conoscenze_teoriche": {
+      "Design Thinking": 0.9467,
+      "Service Blueprinting": 0.9067,
+      "Customer Journey Mapping": 0.92,
+      "User Research": 0.8533,
+      "Workshop Facilitation": 0.6933,
+      "English": 0.8667,
+      "Stakeholder Management": 0.7867
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

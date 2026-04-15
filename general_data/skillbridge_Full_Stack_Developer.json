@@ -1,0 +1,39 @@
+{
+  "profilo_target": "Full Stack Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "JavaScript": 0.8471,
+      "TypeScript": 0.6353,
+      "SQL": 0.7176,
+      "Java": 0.4706,
+      "C#": 0.3294
+    },
+    "software": {
+      "Git": 0.8,
+      "Docker": 0.5294,
+      "AWS": 0.3765,
+      "Azure": 0.3412,
+      "Kubernetes": 0.2588
+    },
+    "frameworks": {
+      "React": 0.5412,
+      "Angular": 0.4471,
+      "Spring Boot": 0.4,
+      "Node.js": 0.3647,
+      "Next.js": 0.2118
+    },
+    "conoscenze_teoriche": {
+      "Agile/Scrum": 0.6824,
+      "REST API": 0.7529,
+      "Microservices": 0.4824,
+      "Cloud Computing": 0.4353,
+      "CI/CD": 0.5059
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

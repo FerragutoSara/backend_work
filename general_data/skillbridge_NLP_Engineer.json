@@ -1,0 +1,34 @@
+{
+  "profilo_target": "NLP Engineer",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.9692,
+      "SQL": 0.4615
+    },
+    "software": {
+      "Git": 0.5385,
+      "AWS": 0.4308,
+      "Docker": 0.3846
+    },
+    "frameworks": {
+      "Hugging Face": 0.7385,
+      "PyTorch": 0.6923,
+      "LangChain": 0.4923,
+      "spaCy": 0.3077,
+      "FastAPI": 0.2769
+    },
+    "conoscenze_teoriche": {
+      "Large Language Models (LLMs)": 0.8923,
+      "Retrieval-Augmented Generation (RAG)": 0.6462,
+      "Deep Learning": 0.8462,
+      "English Proficiency": 0.9231,
+      "Agile": 0.3385
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

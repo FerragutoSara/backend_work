@@ -1,0 +1,39 @@
+{
+  "profilo_target": "QA Automation Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Java": 0.6824,
+      "JavaScript/TypeScript": 0.4941,
+      "SQL": 0.5647,
+      "Python": 0.4235
+    },
+    "software": {
+      "Jira": 0.8235,
+      "Git": 0.8,
+      "Postman": 0.7647,
+      "Jenkins": 0.5294,
+      "Docker": 0.3765
+    },
+    "frameworks": {
+      "Selenium": 0.6471,
+      "Cypress": 0.4471,
+      "Playwright": 0.3059,
+      "Cucumber": 0.3765,
+      "Appium": 0.2118
+    },
+    "conoscenze_teoriche": {
+      "Agile/Scrum": 0.9176,
+      "CI/CD Pipelines": 0.7294,
+      "API Testing": 0.7765,
+      "Microservices": 0.4118,
+      "Cloud Computing (AWS/Azure)": 0.3529,
+      "ISTQB Certification": 0.3294
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

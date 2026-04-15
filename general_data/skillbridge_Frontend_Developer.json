@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Frontend Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "JavaScript": 0.88,
+      "TypeScript": 0.78,
+      "CSS/HTML5": 0.85
+    },
+    "software": {
+      "Git": 0.72,
+      "Figma": 0.42,
+      "Docker": 0.18
+    },
+    "frameworks": {
+      "React": 0.64,
+      "Angular": 0.34,
+      "Tailwind CSS": 0.28,
+      "Next.js": 0.22
+    },
+    "conoscenze_teoriche": {
+      "Agile/Scrum": 0.65,
+      "REST APIs": 0.58,
+      "Unit Testing (Jest/Cypress)": 0.35,
+      "Micro-frontends": 0.12
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

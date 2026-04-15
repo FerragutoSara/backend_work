@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Network Engineer",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.3049,
+      "Bash/Shell Scripting": 0.1463
+    },
+    "software": {
+      "Cisco IOS/NX-OS": 0.7073,
+      "Fortinet FortiGate": 0.5488,
+      "Palo Alto Networks": 0.4634,
+      "Ansible": 0.2439,
+      "Wireshark": 0.2683,
+      "Cisco DNA Center": 0.1829
+    },
+    "frameworks": {
+      "Netmiko/NAPALM": 0.0976
+    },
+    "conoscenze_teoriche": {
+      "TCP/IP & Networking Protocols": 0.7561,
+      "Routing & Switching (BGP, OSPF)": 0.7317,
+      "Network Security (Firewalls, VPN)": 0.6707,
+      "Cloud Networking (Azure/AWS)": 0.4268,
+      "SD-WAN": 0.3659,
+      "ITIL": 0.2195
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

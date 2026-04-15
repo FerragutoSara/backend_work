@@ -1,0 +1,37 @@
+{
+  "profilo_target": "Platform Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.7333,
+      "Go": 0.3733,
+      "Bash": 0.4667
+    },
+    "software": {
+      "Kubernetes": 0.9067,
+      "Terraform": 0.8267,
+      "Docker": 0.8,
+      "AWS": 0.6667,
+      "Azure": 0.4667,
+      "Prometheus": 0.4,
+      "Ansible": 0.3333
+    },
+    "frameworks": {
+      "FastAPI": 0.16,
+      "Backstage": 0.1333
+    },
+    "conoscenze_teoriche": {
+      "CI/CD": 0.8667,
+      "Infrastructure as Code": 0.7733,
+      "Git": 0.8,
+      "Linux": 0.6,
+      "Microservices": 0.56,
+      "Security": 0.44
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

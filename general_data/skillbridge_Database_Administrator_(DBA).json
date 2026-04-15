@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Database Administrator (DBA)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 1,
+      "Python": 0.3056,
+      "PL/SQL": 0.5278
+    },
+    "software": {
+      "Oracle Database": 0.6667,
+      "Microsoft SQL Server": 0.5,
+      "PostgreSQL": 0.3889,
+      "Ansible": 0.2083,
+      "MongoDB": 0.1667
+    },
+    "frameworks": {},
+    "conoscenze_teoriche": {
+      "Cloud Computing (Azure/AWS)": 0.6111,
+      "Performance Tuning": 0.5694,
+      "Backup & Recovery": 0.6944,
+      "High Availability (RAC/AlwaysOn)": 0.4861,
+      "Linux/Unix Administration": 0.4444,
+      "Database Security": 0.5556,
+      "English Proficiency": 0.7639
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

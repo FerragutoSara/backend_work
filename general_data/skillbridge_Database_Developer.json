@@ -1,0 +1,39 @@
+{
+  "profilo_target": "Database Developer",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.9714,
+      "PL/SQL": 0.6429,
+      "T-SQL": 0.5429,
+      "Python": 0.4,
+      "Java": 0.2571
+    },
+    "software": {
+      "Oracle Database": 0.6286,
+      "Microsoft SQL Server": 0.5143,
+      "PostgreSQL": 0.4286,
+      "Git": 0.3571,
+      "Docker": 0.2286,
+      "MongoDB": 0.2
+    },
+    "frameworks": {
+      ".NET": 0.3143,
+      "Spring": 0.2,
+      "Apache Spark": 0.1714
+    },
+    "conoscenze_teoriche": {
+      "ETL": 0.7429,
+      "Performance Tuning": 0.6,
+      "Cloud Computing (Azure/AWS)": 0.5429,
+      "Agile/Scrum": 0.5,
+      "Data Warehousing": 0.4571,
+      "CI/CD": 0.2857
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

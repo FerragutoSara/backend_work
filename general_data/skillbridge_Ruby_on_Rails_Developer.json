@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Ruby on Rails Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Ruby": 1,
+      "SQL": 0.8,
+      "JavaScript": 0.6923
+    },
+    "software": {
+      "PostgreSQL": 0.6462,
+      "Git": 0.6154,
+      "Docker": 0.5385,
+      "AWS": 0.4308,
+      "Redis": 0.2308
+    },
+    "frameworks": {
+      "Ruby on Rails": 1,
+      "RSpec": 0.4923,
+      "React": 0.3385
+    },
+    "conoscenze_teoriche": {
+      "REST API": 0.7385,
+      "Agile/Scrum": 0.5846,
+      "CI/CD": 0.3846,
+      "Microservices": 0.2769
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

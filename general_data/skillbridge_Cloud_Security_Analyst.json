@@ -1,0 +1,32 @@
+{
+  "profilo_target": "Cloud Security Analyst",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.5294,
+      "Bash/Shell Scripting": 0.2794
+    },
+    "software": {
+      "Microsoft Azure (Sentinel/Defender)": 0.75,
+      "SIEM & SOC Tools": 0.6471,
+      "AWS Security Services": 0.6029,
+      "Terraform": 0.5735,
+      "Docker/Kubernetes": 0.3235
+    },
+    "frameworks": {
+      "NIST CSF": 0.4118,
+      "MITRE ATT&CK": 0.3088
+    },
+    "conoscenze_teoriche": {
+      "English Proficiency": 0.9118,
+      "IAM (Identity and Access Management)": 0.7941,
+      "GDPR Compliance": 0.5,
+      "DevSecOps": 0.4412
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

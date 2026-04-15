@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Network Architect",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.4146,
+      "Bash/Shell": 0.2317
+    },
+    "software": {
+      "Terraform": 0.3415,
+      "Ansible": 0.378,
+      "Cisco (Catalyst/Nexus/Meraki)": 0.7805,
+      "Fortinet/Palo Alto Networks": 0.6341,
+      "Check Point": 0.2561,
+      "F5 Load Balancers": 0.3049
+    },
+    "frameworks": {
+      "TOGAF": 0.1463
+    },
+    "conoscenze_teoriche": {
+      "ITIL": 0.4634,
+      "Agile/Scrum": 0.2683,
+      "Cloud Networking (Azure/AWS/GCP)": 0.8171,
+      "SD-WAN": 0.5976,
+      "Network Security / Zero Trust": 0.7073,
+      "Routing & Switching (BGP/OSPF/MPLS)": 0.8659
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

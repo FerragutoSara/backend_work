@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Cloud Architect",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.4118,
+      "Java": 0.2353
+    },
+    "software": {
+      "AWS": 0.7294,
+      "Azure": 0.6471,
+      "Terraform": 0.5882,
+      "Kubernetes": 0.5647,
+      "Docker": 0.4471,
+      "GCP": 0.1765
+    },
+    "frameworks": {
+      "Spring Boot": 0.1412
+    },
+    "conoscenze_teoriche": {
+      "Microservices": 0.6118,
+      "Security": 0.5294,
+      "CI/CD": 0.4706,
+      "Agile": 0.2941,
+      "FinOps": 0.1176
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

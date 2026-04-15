@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Golang Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Go": 1,
+      "Python": 0.2683
+    },
+    "software": {
+      "Docker": 0.7927,
+      "Kubernetes": 0.7195,
+      "AWS": 0.5122,
+      "PostgreSQL": 0.5488,
+      "Git": 0.439,
+      "Redis": 0.3659
+    },
+    "frameworks": {
+      "gRPC": 0.4146,
+      "Gin": 0.2927
+    },
+    "conoscenze_teoriche": {
+      "Microservices": 0.8293,
+      "Agile": 0.5,
+      "REST API": 0.5854,
+      "Unit Testing": 0.4634,
+      "Cloud Computing": 0.6341
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

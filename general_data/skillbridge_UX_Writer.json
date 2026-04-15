@@ -1,0 +1,33 @@
+{
+  "profilo_target": "UX Writer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "English": 1,
+      "Italian": 0.75,
+      "HTML/CSS": 0.1406
+    },
+    "software": {
+      "Figma": 0.8125,
+      "Jira": 0.4219,
+      "Miro": 0.3281,
+      "Frontitude": 0.0938
+    },
+    "frameworks": {
+      "Scrum": 0.375
+    },
+    "conoscenze_teoriche": {
+      "User-Centered Design": 0.7969,
+      "Agile": 0.6563,
+      "Content Strategy": 0.6094,
+      "UX Research": 0.4844,
+      "Accessibility (WCAG)": 0.2813,
+      "Design Systems": 0.2344
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

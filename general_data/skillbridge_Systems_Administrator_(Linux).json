@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Systems Administrator (Linux)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Bash": 0.84,
+      "Python": 0.6
+    },
+    "software": {
+      "Docker": 0.6667,
+      "Kubernetes": 0.5333,
+      "VMware vSphere": 0.5067,
+      "Git": 0.3733
+    },
+    "frameworks": {
+      "Ansible": 0.6933,
+      "Terraform": 0.4667
+    },
+    "conoscenze_teoriche": {
+      "Linux Administration": 1,
+      "Networking (TCP/IP, DNS, VPN)": 0.56,
+      "Cloud Computing (AWS/Azure)": 0.48,
+      "Cybersecurity": 0.4267,
+      "CI/CD Pipelines": 0.4,
+      "ITIL": 0.3333
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

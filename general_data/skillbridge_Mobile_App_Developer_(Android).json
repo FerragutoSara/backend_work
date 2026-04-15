@@ -1,0 +1,36 @@
+{
+  "profilo_target": "Mobile App Developer (Android)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Kotlin": 0.96,
+      "Java": 0.56
+    },
+    "software": {
+      "Android Studio": 1,
+      "Git": 0.9067,
+      "Firebase": 0.4667,
+      "Jira/Confluence": 0.5467
+    },
+    "frameworks": {
+      "Android SDK": 1,
+      "Jetpack Compose": 0.7733,
+      "Retrofit": 0.72,
+      "Dagger/Hilt": 0.64,
+      "Coroutines/Flow": 0.8267
+    },
+    "conoscenze_teoriche": {
+      "MVVM/MVI Architecture": 0.8667,
+      "Agile/Scrum": 0.7867,
+      "RESTful APIs": 0.9333,
+      "Clean Architecture": 0.5867,
+      "Unit Testing/UI Testing": 0.5333,
+      "CI/CD Pipelines": 0.4267
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}
