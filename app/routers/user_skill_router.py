@@ -8,8 +8,12 @@ service = UserSkillService()
 @router.post("/")
 def create_user_skills(payload: UserSkillInput):
     try:
-        skill_id = service.validate_and_save_user_skills(payload)
-        return {"message": "User skills salvate con successo", "id": skill_id}
+        skill_id, analysis = service.validate_and_save_user_skills(payload)
+        return {
+            "message": "User skills salvate con successo",
+            "id": skill_id,
+            "analysis": analysis,
+        }
     except HTTPException as e:
         raise e
     except Exception as e:
