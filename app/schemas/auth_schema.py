@@ -1,12 +1,15 @@
 from pydantic import BaseModel, EmailStr
+from typing import Optional
+from datetime import datetime
 
 
 class AuthRegister(BaseModel):
-    name: str
-    surname: str
+    first_name: str
+    last_name: str
     email: EmailStr
     password: str
-    privacy_level: int
+    agreement_id: str
+
 
 
 class AuthLogin(BaseModel):
@@ -14,12 +17,21 @@ class AuthLogin(BaseModel):
     password: str
 
 
+
 class AuthResponse(BaseModel):
-    id: str
-    name: str
-    surname: str
+    user_id: str
+    first_name: str
+    last_name: str
     email: EmailStr
-    privacy_level: int
+    password: str
+    agreement_id: str
+    accepted_at: Optional[datetime] = None
+    target: Target
+
+
+class Target(BaseModel):
+    area_id: str
+    job_id: str
 
 
 class TokenResponse(BaseModel):
