@@ -1,0 +1,37 @@
+{
+  "profilo_target": "Big Data Architect",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.8718,
+      "Python": 0.7949,
+      "Java": 0.5769,
+      "Scala": 0.4872
+    },
+    "software": {
+      "Microsoft Azure": 0.7051,
+      "AWS": 0.641,
+      "Databricks": 0.5385,
+      "Docker/Kubernetes": 0.4487,
+      "GCP": 0.4103,
+      "Snowflake": 0.3846
+    },
+    "frameworks": {
+      "Apache Spark": 0.8333,
+      "Apache Kafka": 0.6667,
+      "Hadoop": 0.359
+    },
+    "conoscenze_teoriche": {
+      "Cloud Computing": 0.8974,
+      "Data Modeling": 0.7692,
+      "Agile/Scrum": 0.5769,
+      "Data Governance": 0.5128,
+      "Microservices": 0.4103
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

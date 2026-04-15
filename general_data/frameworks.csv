@@ -1,0 +1,209 @@
+id,skill,type
+1,.NET Core / .NET 6-8,framework
+2,ASP.NET Web API,framework
+3,Entity Framework Core,framework
+4,Angular,framework
+5,React,framework
+6,Fairlearn,framework
+7,AIF360,framework
+8,LangChain,framework
+9,Scikit-learn,framework
+10,PyTorch,framework
+11,TensorFlow,framework
+12,Hugging Face,framework
+13,Scikit-learn,framework
+14,Spring Boot,framework
+15,Node.js,framework
+16,.NET Core,framework
+17,React,framework
+18,Angular,framework
+19,Angular,framework
+20,RxJS,framework
+21,State Management (NgRx),framework
+22,Bootstrap/Angular Material,framework
+23,Spring Boot,framework
+24,Spark,framework
+25,Spring Boot,framework
+26,Apache Spark,framework
+27,Apache Kafka,framework
+28,Hadoop,framework
+29,.NET,framework
+30,Spring Boot,framework
+31,STL / Boost,framework
+32,Qt,framework
+33,NIST CSF,framework
+34,MITRE ATT&CK,framework
+35,COBIT,framework
+36,Spring Boot,framework
+37,Serverless Framework,framework
+38,FastAPI,framework
+39,NIST CSF,framework
+40,MITRE ATT&CK,framework
+41,NIST Cybersecurity Framework,framework
+42,CIS Controls,framework
+43,PyTorch,framework
+44,OpenCV,framework
+45,TensorFlow,framework
+46,OpenSSL,framework
+47,Libsodium,framework
+48,ISO 27001,framework
+49,NIST,framework
+50,MITRE ATT&CK,framework
+51,OWASP,framework
+52,Pandas,framework
+53,DBT,framework
+54,Apache Spark,framework
+55,Apache Kafka,framework
+56,Apache Spark,framework
+57,Apache Kafka,framework
+58,NIST Privacy Framework,framework
+59,Pandas,framework
+60,Scikit-learn,framework
+61,TensorFlow,framework
+62,PyTorch,framework
+63,Spark,framework
+64,Agile,framework
+65,Apache Spark,framework
+66,dbt (Data Build Tool),framework
+67,Apache Airflow,framework
+68,.NET,framework
+69,Spring,framework
+70,Apache Spark,framework
+71,PyTorch,framework
+72,TensorFlow,framework
+73,Hugging Face / LangChain,framework
+74,React,framework
+75,Storybook,framework
+76,Next.js,framework
+77,AWS CDK,framework
+78,Terragrunt,framework
+79,Pytest,framework
+80,MITRE ATT&CK,framework
+81,NIST Cybersecurity Framework,framework
+82,"RTOS (FreeRTOS, Zephyr, VxWorks)",framework
+83,Embedded Linux & Yocto Project,framework
+84,Qt Framework,framework
+85,Spring Boot,framework
+86,FreeRTOS,framework
+87,Yocto Project,framework
+88,Zephyr,framework
+89,React,framework
+90,Angular,framework
+91,Tailwind CSS,framework
+92,Next.js,framework
+93,React,framework
+94,Angular,framework
+95,Spring Boot,framework
+96,Node.js,framework
+97,Next.js,framework
+98,COBIT,framework
+99,ITIL,framework
+100,Unity,framework
+101,Unreal Engine,framework
+102,gRPC,framework
+103,Gin,framework
+104,REST APIs,framework
+105,Spring,framework
+106,Spring Boot,framework
+107,React,framework
+108,ITIL,framework
+109,Scrum,framework
+110,AWS CDK,framework
+111,MITRE ATT&CK,framework
+112,NIST CSF,framework
+113,ISO 27001,framework
+114,Spring Boot,framework
+115,Hibernate / JPA,framework
+116,JUnit,framework
+117,Angular / React,framework
+118,PyTorch,framework
+119,MLflow,framework
+120,Apache Spark,framework
+121,Scikit-learn,framework
+122,PyTorch,framework
+123,TensorFlow,framework
+124,Android SDK,framework
+125,Jetpack Compose,framework
+126,Retrofit,framework
+127,Dagger/Hilt,framework
+128,Coroutines/Flow,framework
+129,SwiftUI,framework
+130,UIKit,framework
+131,Combine,framework
+132,Core Data,framework
+133,Hugging Face,framework
+134,PyTorch,framework
+135,LangChain,framework
+136,spaCy,framework
+137,FastAPI,framework
+138,TOGAF,framework
+139,Netmiko/NAPALM,framework
+140,Ansible,framework
+141,Terraform,framework
+142,Laravel,framework
+143,Symfony,framework
+144,React / Vue.js,framework
+145,MITRE ATT&CK,framework
+146,FastAPI,framework
+147,Backstage,framework
+148,Scikit-learn,framework
+149,XGBoost,framework
+150,TensorFlow,framework
+151,PySpark,framework
+152,Django,framework
+153,FastAPI,framework
+154,Pandas,framework
+155,Selenium,framework
+156,Cypress,framework
+157,Playwright,framework
+158,Cucumber,framework
+159,Appium,framework
+160,Selenium,framework
+161,Pandas/NumPy,framework
+162,Scikit-learn,framework
+163,React,framework
+164,Next.js,framework
+165,Redux,framework
+166,React,framework
+167,Next.js,framework
+168,Redux,framework
+169,Ruby on Rails,framework
+170,RSpec,framework
+171,React,framework
+172,Tokio,framework
+173,Actix-web,framework
+174,Selenium,framework
+175,Playwright,framework
+176,Cypress,framework
+177,Appium,framework
+178,Cucumber (BDD),framework
+179,"SOAR (XSOAR, Swimlane)",framework
+180,Spring Security,framework
+181,Open Policy Agent (OPA),framework
+182,Agile,framework
+183,Scrum,framework
+184,Design Sprints,framework
+185,Flask,framework
+186,Spring Boot,framework
+187,Spring Boot,framework
+188,.NET Core,framework
+189,React,framework
+190,Spring Boot,framework
+191,Node.js,framework
+192,Pandas,framework
+193,Scikit-Learn,framework
+194,TensorFlow,framework
+195,Ansible,framework
+196,Terraform,framework
+197,PowerShell DSC,framework
+198,PowerShell DSC,framework
+199,.NET Framework,framework
+200,Spring Boot,framework
+201,React,framework
+202,Scrum,framework
+203,PowerCLI,framework
+204,MITRE ATT&CK,framework
+205,WooCommerce,framework
+206,Bootstrap,framework
+207,React,framework
+208,Laravel,framework

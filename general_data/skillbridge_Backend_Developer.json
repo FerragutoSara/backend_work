@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Backend Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Java": 0.7294,
+      "SQL": 0.7529,
+      "C#/.NET": 0.3529,
+      "Node.js": 0.3059
+    },
+    "software": {
+      "Docker": 0.5059,
+      "Git": 0.6,
+      "PostgreSQL": 0.2824,
+      "Kubernetes": 0.2471
+    },
+    "frameworks": {
+      "Spring Boot": 0.6471
+    },
+    "conoscenze_teoriche": {
+      "REST API": 0.6824,
+      "Microservices": 0.6,
+      "Cloud Computing (AWS/Azure)": 0.5529,
+      "Agile/Scrum": 0.4471,
+      "Unit Testing (JUnit/NUnit)": 0.4
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "profilo_target": "Game Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "C#": 0.64,
+      "C++": 0.4267
+    },
+    "software": {
+      "Git": 0.6,
+      "Visual Studio": 0.5067
+    },
+    "frameworks": {
+      "Unity": 0.6667,
+      "Unreal Engine": 0.3733
+    },
+    "conoscenze_teoriche": {
+      "Object-Oriented Programming (OOP)": 0.8,
+      "Mathematics for 3D": 0.3333,
+      "Agile/Scrum": 0.4,
+      "Mobile Development (iOS/Android)": 0.4667,
+      "XR/AR/VR Development": 0.2933,
+      "Shaders (HLSL/GLSL)": 0.24
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "profilo_target": "Data Center Technician",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Bash/Shell Scripting": 0.4308,
+      "Python": 0.2769
+    },
+    "software": {
+      "ServiceNow": 0.5846,
+      "Jira": 0.3385,
+      "Zabbix/Nagios": 0.2308
+    },
+    "frameworks": {},
+    "conoscenze_teoriche": {
+      "Hardware Troubleshooting": 0.9538,
+      "Networking (TCP/IP, DNS)": 0.8923,
+      "Fiber and Copper Cabling": 0.8462,
+      "Linux/Unix OS": 0.6462,
+      "HVAC and Electrical Systems": 0.5385,
+      "Physical Security Protocols": 0.4615,
+      "ITIL Framework": 0.3846
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

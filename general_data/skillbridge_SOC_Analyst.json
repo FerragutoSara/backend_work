@@ -1,0 +1,29 @@
+{
+  "profilo_target": "SOC Analyst",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.6462,
+      "PowerShell / Bash": 0.4615
+    },
+    "software": {
+      "SIEM (Splunk, QRadar, Sentinel)": 0.8923,
+      "EDR Solutions (CrowdStrike, SentinelOne)": 0.6
+    },
+    "frameworks": {
+      "SOAR (XSOAR, Swimlane)": 0.3385
+    },
+    "conoscenze_teoriche": {
+      "Incident Response": 0.8462,
+      "TCP/IP Networking": 0.7385,
+      "MITRE ATT&CK": 0.6923,
+      "Cloud Security (Azure, AWS)": 0.6769,
+      "NIST / ISO 27001": 0.5385
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

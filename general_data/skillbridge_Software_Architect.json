@@ -1,0 +1,37 @@
+{
+  "profilo_target": "Software Architect",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Java": 0.6471,
+      "C#": 0.4,
+      "Python": 0.3294,
+      "TypeScript": 0.2824
+    },
+    "software": {
+      "AWS": 0.5882,
+      "Kubernetes": 0.5647,
+      "Azure": 0.5412,
+      "Docker": 0.4706,
+      "Kafka": 0.2941
+    },
+    "frameworks": {
+      "Spring Boot": 0.5294,
+      ".NET Core": 0.3529,
+      "React": 0.2353
+    },
+    "conoscenze_teoriche": {
+      "Microservices": 0.8471,
+      "Cloud Computing": 0.8,
+      "Agile/Scrum": 0.5294,
+      "DevOps/CI-CD": 0.4941,
+      "Domain-Driven Design (DDD)": 0.3765,
+      "Security/IAM": 0.3294
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "profilo_target": "Cloud Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.6824,
+      "Bash/Shell Scripting": 0.4471,
+      "Go": 0.1765
+    },
+    "software": {
+      "Amazon Web Services (AWS)": 0.7294,
+      "Microsoft Azure": 0.6353,
+      "Terraform": 0.6588,
+      "Kubernetes (K8s)": 0.6118,
+      "Docker": 0.6471,
+      "Ansible": 0.3647,
+      "Google Cloud Platform (GCP)": 0.3294
+    },
+    "frameworks": {
+      "Serverless Framework": 0.2588,
+      "FastAPI": 0.2118
+    },
+    "conoscenze_teoriche": {
+      "CI/CD Pipelines": 0.8,
+      "Infrastructure as Code (IaC)": 0.7529,
+      "Microservices": 0.4941,
+      "Agile (Scrum/Kanban)": 0.4118,
+      "Cloud Security": 0.4588,
+      "Networking (VPC, DNS, BGP)": 0.4
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

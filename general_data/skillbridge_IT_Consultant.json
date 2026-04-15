@@ -1,0 +1,31 @@
+{
+  "profilo_target": "IT Consultant",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.6824,
+      "Java": 0.4941,
+      "Python": 0.4118
+    },
+    "software": {
+      "Microsoft Azure": 0.5294,
+      "SAP": 0.4471,
+      "AWS": 0.3765
+    },
+    "frameworks": {
+      "Spring Boot": 0.2941,
+      "React": 0.2588
+    },
+    "conoscenze_teoriche": {
+      "Cloud Computing": 0.8471,
+      "Agile": 0.8,
+      "Digital Transformation": 0.4706,
+      "Cybersecurity": 0.3294
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

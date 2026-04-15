@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Embedded Systems Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "C": 0.9231,
+      "C++": 0.6538,
+      "Python": 0.4359
+    },
+    "software": {
+      "Git": 0.6923,
+      "STM32Cube / HAL": 0.4872,
+      "MATLAB / Simulink": 0.2821,
+      "Oscilloscopes & Logic Analyzers": 0.3718
+    },
+    "frameworks": {
+      "RTOS (FreeRTOS, Zephyr, VxWorks)": 0.5769,
+      "Embedded Linux & Yocto Project": 0.3974,
+      "Qt Framework": 0.1795
+    },
+    "conoscenze_teoriche": {
+      "ARM Cortex-M Architecture": 0.7436,
+      "Communication Protocols (I2C, SPI, UART, CAN)": 0.7949,
+      "Agile / Scrum": 0.3333,
+      "Cybersecurity for Embedded Systems": 0.2308,
+      "IoT Connectivity (BLE, WiFi, MQTT)": 0.4103
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Network Security Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.4471,
+      "Bash/Shell": 0.2588
+    },
+    "software": {
+      "Fortinet FortiGate": 0.7529,
+      "Cisco ASA/Firepower": 0.7176,
+      "Palo Alto Networks": 0.6941,
+      "Check Point": 0.3647,
+      "Splunk": 0.2941
+    },
+    "frameworks": {
+      "Ansible": 0.2118,
+      "Terraform": 0.1647
+    },
+    "conoscenze_teoriche": {
+      "TCP/IP & Networking Protocols": 0.9647,
+      "Cloud Security (Azure/AWS)": 0.6588,
+      "VPN Technologies (IPsec/SSL)": 0.8471,
+      "English Language Proficiency": 0.9294,
+      "Zero Trust Architecture": 0.2824,
+      "ISO 27001 / NIST Standards": 0.4118
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "profilo_target": "Statistician",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "R": 0.7436,
+      "Python": 0.6667,
+      "SQL": 0.5769
+    },
+    "software": {
+      "SAS": 0.3974,
+      "Microsoft Excel": 0.5128,
+      "Tableau": 0.2436,
+      "Power BI": 0.3077
+    },
+    "frameworks": {
+      "Pandas": 0.2821,
+      "Scikit-Learn": 0.2308,
+      "TensorFlow": 0.1538
+    },
+    "conoscenze_teoriche": {
+      "Statistical Modeling": 0.8333,
+      "Machine Learning": 0.5385,
+      "Hypothesis Testing": 0.4872,
+      "Clinical Trials (CDISC/ADaM)": 0.1795,
+      "Data Visualization": 0.4231,
+      "Big Data": 0.2564,
+      "English Language": 0.8718
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

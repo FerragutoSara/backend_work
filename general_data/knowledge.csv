@@ -1,0 +1,478 @@
+id,skill,type
+1,Microservices,knowledge
+2,REST API,knowledge
+3,Agile/Scrum,knowledge
+4,SOLID Principles,knowledge
+5,Unit Testing/TDD,knowledge
+6,Cloud Computing,knowledge
+7,EU AI Act,knowledge
+8,GDPR,knowledge
+9,Risk Assessment,knowledge
+10,Bias Mitigation,knowledge
+11,Explainable AI (XAI),knowledge
+12,ISO/IEC 42001,knowledge
+13,Deep Learning,knowledge
+14,Generative AI,knowledge
+15,Natural Language Processing (NLP),knowledge
+16,Mathematics & Statistics,knowledge
+17,Cloud Computing (AWS/Azure/GCP),knowledge
+18,Computer Vision,knowledge
+19,RESTful APIs,knowledge
+20,Microservices,knowledge
+21,Agile / Scrum,knowledge
+22,OAuth2 / JWT,knowledge
+23,WCAG 2.1/2.2,knowledge
+24,WAI-ARIA,knowledge
+25,Inclusive Design,knowledge
+26,European Accessibility Act (EAA) Compliance,knowledge
+27,Agile/Scrum,knowledge
+28,Agile (Scrum),knowledge
+29,REST API,knowledge
+30,Unit Testing (Jasmine/Karma/Cypress),knowledge
+31,Microservices,knowledge
+32,Cloud Computing (AWS/Azure/GCP),knowledge
+33,OWASP Top 10,knowledge
+34,SAST/DAST/SCA,knowledge
+35,Cloud Security (AWS/Azure),knowledge
+36,DevSecOps,knowledge
+37,ETL/ELT,knowledge
+38,Data Warehousing,knowledge
+39,Azure,knowledge
+40,Data Modeling,knowledge
+41,Agile/Scrum,knowledge
+42,Cloud Computing,knowledge
+43,REST API,knowledge
+44,Microservices,knowledge
+45,Cloud Computing (AWS/Azure),knowledge
+46,Agile/Scrum,knowledge
+47,Unit Testing (JUnit/NUnit),knowledge
+48,Cloud Computing,knowledge
+49,Data Modeling,knowledge
+50,Agile/Scrum,knowledge
+51,Data Governance,knowledge
+52,Microservices,knowledge
+53,Agile,knowledge
+54,BPMN,knowledge
+55,SDLC,knowledge
+56,Scrum,knowledge
+57,Cloud Computing (Azure/AWS),knowledge
+58,UML,knowledge
+59,Linux,knowledge
+60,OOP (Object-Oriented Programming),knowledge
+61,Multithreading & Concurrency,knowledge
+62,Agile / Scrum,knowledge
+63,Embedded Systems,knowledge
+64,Design Patterns,knowledge
+65,ISO 27001,knowledge
+66,Risk Management,knowledge
+67,GDPR,knowledge
+68,CISSP / CISM,knowledge
+69,Cloud Security (Azure/AWS),knowledge
+70,NIS2 / DORA,knowledge
+71,Microservices,knowledge
+72,Security,knowledge
+73,CI/CD,knowledge
+74,Agile,knowledge
+75,FinOps,knowledge
+76,CI/CD Pipelines,knowledge
+77,Infrastructure as Code (IaC),knowledge
+78,Microservices,knowledge
+79,Agile (Scrum/Kanban),knowledge
+80,Cloud Security,knowledge
+81,"Networking (VPC, DNS, BGP)",knowledge
+82,Cloud Computing,knowledge
+83,CI/CD,knowledge
+84,Security,knowledge
+85,Microservices,knowledge
+86,Agile,knowledge
+87,English Proficiency,knowledge
+88,IAM (Identity and Access Management),knowledge
+89,GDPR Compliance,knowledge
+90,DevSecOps,knowledge
+91,Identity and Access Management (IAM),knowledge
+92,DevSecOps,knowledge
+93,ISO 27001,knowledge
+94,CI/CD Pipelines,knowledge
+95,Deep Learning,knowledge
+96,Object Detection & Segmentation,knowledge
+97,Cloud Computing (AWS/Azure/GCP),knowledge
+98,MLOps,knowledge
+99,Mathematics & Linear Algebra,knowledge
+100,Agile,knowledge
+101,English (Professional Proficiency),knowledge
+102,PKI (Public Key Infrastructure),knowledge
+103,Blockchain & Smart Contracts,knowledge
+104,Post-Quantum Cryptography (PQC),knowledge
+105,Zero-Knowledge Proofs (ZKP),knowledge
+106,Cloud Security (AWS/Azure),knowledge
+107,ISO 27001 / NIST Standards,knowledge
+108,Network Security,knowledge
+109,Incident Response,knowledge
+110,Cloud Security,knowledge
+111,Vulnerability Management,knowledge
+112,GDPR,knowledge
+113,Data Visualization,knowledge
+114,Statistics,knowledge
+115,ETL,knowledge
+116,Agile,knowledge
+117,Data Governance,knowledge
+118,Data Modeling,knowledge
+119,ETL/ELT Processes,knowledge
+120,Data Governance & GDPR,knowledge
+121,Cloud Computing,knowledge
+122,NoSQL,knowledge
+123,Hardware Troubleshooting,knowledge
+124,"Networking (TCP/IP, DNS)",knowledge
+125,Fiber and Copper Cabling,knowledge
+126,Linux/Unix OS,knowledge
+127,HVAC and Electrical Systems,knowledge
+128,Physical Security Protocols,knowledge
+129,ITIL Framework,knowledge
+130,ETL/ELT,knowledge
+131,Cloud Computing,knowledge
+132,Data Modeling,knowledge
+133,Agile,knowledge
+134,CI/CD,knowledge
+135,GDPR (EU Regulation 2016/679),knowledge
+136,English (Professional Proficiency),knowledge
+137,DPIA (Data Protection Impact Assessment),knowledge
+138,Italian Privacy Code (D.Lgs. 196/03),knowledge
+139,Risk Management & Assessment,knowledge
+140,Privacy by Design & Default,knowledge
+141,ISO/IEC 27001,knowledge
+142,Cybersecurity Fundamentals,knowledge
+143,Audit & Compliance Reporting,knowledge
+144,Machine Learning,knowledge
+145,Statistics,knowledge
+146,Generative AI,knowledge
+147,Agile,knowledge
+148,Data Governance,knowledge
+149,Data Quality,knowledge
+150,GDPR,knowledge
+151,Master Data Management (MDM),knowledge
+152,Metadata Management,knowledge
+153,Data Lineage,knowledge
+154,DAMA-DMBOK,knowledge
+155,"Cloud Computing (Azure, AWS, GCP)",knowledge
+156,Data Modeling (Kimball/Inmon),knowledge
+157,ETL/ELT Processes,knowledge
+158,Agile/Scrum,knowledge
+159,GDPR & Data Governance,knowledge
+160,Cloud Computing (Azure/AWS),knowledge
+161,Performance Tuning,knowledge
+162,Backup & Recovery,knowledge
+163,High Availability (RAC/AlwaysOn),knowledge
+164,Linux/Unix Administration,knowledge
+165,Database Security,knowledge
+166,English Proficiency,knowledge
+167,ETL,knowledge
+168,Performance Tuning,knowledge
+169,Cloud Computing (Azure/AWS),knowledge
+170,Agile/Scrum,knowledge
+171,Data Warehousing,knowledge
+172,CI/CD,knowledge
+173,"Neural Network Architectures (Transformers, CNNs, RNNs)",knowledge
+174,Natural Language Processing (NLP),knowledge
+175,Computer Vision,knowledge
+176,Cloud Computing (AWS/Azure/GCP),knowledge
+177,Mathematics & Statistics,knowledge
+178,English Language,knowledge
+179,Accessibility (WCAG),knowledge
+180,Design Tokens,knowledge
+181,Agile,knowledge
+182,Atomic Design,knowledge
+183,CI/CD,knowledge
+184,CI/CD Pipelines,knowledge
+185,Cloud Computing (AWS/Azure),knowledge
+186,Microservices,knowledge
+187,Linux System Administration,knowledge
+188,Agile/Scrum,knowledge
+189,DevSecOps/Security,knowledge
+190,Incident Response (DFIR),knowledge
+191,Chain of Custody,knowledge
+192,Malware Analysis,knowledge
+193,GDPR & Privacy Law,knowledge
+194,Italian Law 48/2008,knowledge
+195,ARM Cortex-M Architecture,knowledge
+196,"Communication Protocols (I2C, SPI, UART, CAN)",knowledge
+197,Agile / Scrum,knowledge
+198,Cybersecurity for Embedded Systems,knowledge
+199,"IoT Connectivity (BLE, WiFi, MQTT)",knowledge
+200,Cloud Computing,knowledge
+201,TOGAF,knowledge
+202,Agile,knowledge
+203,Microservices,knowledge
+204,Cybersecurity,knowledge
+205,Data Architecture,knowledge
+206,IT Governance,knowledge
+207,API Management,knowledge
+208,Digital Transformation,knowledge
+209,Communication Protocols (I2C/SPI/UART),knowledge
+210,Microcontroller Architectures (ARM Cortex),knowledge
+211,Real-time Operating Systems (RTOS) Concepts,knowledge
+212,Agile/Scrum,knowledge
+213,Cybersecurity/Secure Boot,knowledge
+214,Agile/Scrum,knowledge
+215,REST APIs,knowledge
+216,Unit Testing (Jest/Cypress),knowledge
+217,Micro-frontends,knowledge
+218,Agile/Scrum,knowledge
+219,REST API,knowledge
+220,Microservices,knowledge
+221,Cloud Computing,knowledge
+222,CI/CD,knowledge
+223,Risk Assessment & Management,knowledge
+224,ISO 27001,knowledge
+225,GDPR,knowledge
+226,English (Professional Proficiency),knowledge
+227,Internal Audit,knowledge
+228,NIS2 / DORA Compliance,knowledge
+229,NIST CSF,knowledge
+230,SOC2,knowledge
+231,Object-Oriented Programming (OOP),knowledge
+232,Mathematics for 3D,knowledge
+233,Agile/Scrum,knowledge
+234,Mobile Development (iOS/Android),knowledge
+235,XR/AR/VR Development,knowledge
+236,Shaders (HLSL/GLSL),knowledge
+237,Microservices,knowledge
+238,Agile,knowledge
+239,REST API,knowledge
+240,Unit Testing,knowledge
+241,Cloud Computing,knowledge
+242,SAML/OAuth/OIDC,knowledge
+243,Cloud Security (Azure/AWS/GCP),knowledge
+244,IGA (Identity Governance and Administration),knowledge
+245,PAM (Privileged Access Management),knowledge
+246,Zero Trust Architecture,knowledge
+247,GDPR Compliance,knowledge
+248,Cloud Computing,knowledge
+249,Agile,knowledge
+250,Digital Transformation,knowledge
+251,Cybersecurity,knowledge
+252,Cloud Computing (Azure/AWS),knowledge
+253,Cybersecurity,knowledge
+254,Vendor Management,knowledge
+255,Project Management,knowledge
+256,GDPR Compliance,knowledge
+257,Agile,knowledge
+258,DevOps,knowledge
+259,CI/CD,knowledge
+260,Linux,knowledge
+261,DevSecOps,knowledge
+262,Agile,knowledge
+263,Incident Response,knowledge
+264,SIEM,knowledge
+265,Cloud Security,knowledge
+266,Network Security,knowledge
+267,Digital Forensics (DFIR),knowledge
+268,REST API,knowledge
+269,Microservices,knowledge
+270,Agile / Scrum,knowledge
+271,Cloud Computing (AWS/Azure),knowledge
+272,CI/CD,knowledge
+273,Cloud Computing,knowledge
+274,CI/CD,knowledge
+275,Agile,knowledge
+276,Microservices,knowledge
+277,Deep Learning,knowledge
+278,MLOps,knowledge
+279,Statistics,knowledge
+280,Agile,knowledge
+281,NLP,knowledge
+282,Generative AI (LLM/RAG),knowledge
+283,Reverse Engineering,knowledge
+284,Static and Dynamic Analysis,knowledge
+285,MITRE ATT&CK,knowledge
+286,Threat Intelligence,knowledge
+287,Windows Internals,knowledge
+288,Network Protocols,knowledge
+289,MVVM/MVI Architecture,knowledge
+290,Agile/Scrum,knowledge
+291,RESTful APIs,knowledge
+292,Clean Architecture,knowledge
+293,Unit Testing/UI Testing,knowledge
+294,CI/CD Pipelines,knowledge
+295,MVVM,knowledge
+296,RESTful APIs,knowledge
+297,Agile/Scrum,knowledge
+298,Unit Testing (XCTest),knowledge
+299,Clean Architecture,knowledge
+300,Large Language Models (LLMs),knowledge
+301,Retrieval-Augmented Generation (RAG),knowledge
+302,Deep Learning,knowledge
+303,English Proficiency,knowledge
+304,Agile,knowledge
+305,ITIL,knowledge
+306,Agile/Scrum,knowledge
+307,Cloud Networking (Azure/AWS/GCP),knowledge
+308,SD-WAN,knowledge
+309,Network Security / Zero Trust,knowledge
+310,Routing & Switching (BGP/OSPF/MPLS),knowledge
+311,TCP/IP & Networking Protocols,knowledge
+312,"Routing & Switching (BGP, OSPF)",knowledge
+313,"Network Security (Firewalls, VPN)",knowledge
+314,Cloud Networking (Azure/AWS),knowledge
+315,SD-WAN,knowledge
+316,ITIL,knowledge
+317,TCP/IP & Networking Protocols,knowledge
+318,Cloud Security (Azure/AWS),knowledge
+319,VPN Technologies (IPsec/SSL),knowledge
+320,English Language Proficiency,knowledge
+321,Zero Trust Architecture,knowledge
+322,ISO 27001 / NIST Standards,knowledge
+323,REST API,knowledge
+324,Agile / Scrum,knowledge
+325,Microservices,knowledge
+326,E-commerce (Magento/PrestaShop),knowledge
+327,OWASP Top 10,knowledge
+328,Network Security,knowledge
+329,Active Directory,knowledge
+330,Cloud Security (AWS/Azure),knowledge
+331,Mobile Application Security,knowledge
+332,CI/CD,knowledge
+333,Infrastructure as Code,knowledge
+334,Git,knowledge
+335,Linux,knowledge
+336,Microservices,knowledge
+337,Security,knowledge
+338,Machine Learning,knowledge
+339,Statistical Analysis & Time Series,knowledge
+340,Risk & Credit Scoring,knowledge
+341,Generative AI & LLMs,knowledge
+342,English Proficiency,knowledge
+343,REST APIs,knowledge
+344,Agile/Scrum,knowledge
+345,Cloud Computing,knowledge
+346,CI/CD,knowledge
+347,Microservices,knowledge
+348,Agile/Scrum,knowledge
+349,CI/CD Pipelines,knowledge
+350,API Testing,knowledge
+351,Microservices,knowledge
+352,Cloud Computing (AWS/Azure),knowledge
+353,ISTQB Certification,knowledge
+354,Agile/Scrum,knowledge
+355,Regression Testing,knowledge
+356,English (B2/C1),knowledge
+357,API Testing,knowledge
+358,ISTQB Certification,knowledge
+359,Financial Mathematics,knowledge
+360,Risk Management,knowledge
+361,Machine Learning,knowledge
+362,Derivatives Pricing,knowledge
+363,Stochastic Calculus,knowledge
+364,Agile/Scrum,knowledge
+365,REST APIs,knowledge
+366,Testing (Jest/RTL),knowledge
+367,GraphQL,knowledge
+368,Agile/Scrum,knowledge
+369,REST APIs,knowledge
+370,Testing (Jest/RTL),knowledge
+371,GraphQL,knowledge
+372,REST API,knowledge
+373,Agile/Scrum,knowledge
+374,CI/CD,knowledge
+375,Microservices,knowledge
+376,Microservices,knowledge
+377,Agile,knowledge
+378,CI/CD,knowledge
+379,WebAssembly,knowledge
+380,Agile/Scrum,knowledge
+381,CI/CD Pipelines,knowledge
+382,API Testing,knowledge
+383,Microservices,knowledge
+384,Cloud Computing (AWS/Azure),knowledge
+385,Incident Response,knowledge
+386,TCP/IP Networking,knowledge
+387,MITRE ATT&CK,knowledge
+388,"Cloud Security (Azure, AWS)",knowledge
+389,NIST / ISO 27001,knowledge
+390,ISO 27001,knowledge
+391,Identity and Access Management (IAM),knowledge
+392,NIST Cybersecurity Framework,knowledge
+393,Zero Trust Architecture,knowledge
+394,DevSecOps,knowledge
+395,Design Thinking,knowledge
+396,Service Blueprinting,knowledge
+397,Customer Journey Mapping,knowledge
+398,User Research,knowledge
+399,Workshop Facilitation,knowledge
+400,English,knowledge
+401,Stakeholder Management,knowledge
+402,CI/CD,knowledge
+403,Infrastructure as Code (IaC),knowledge
+404,Observability,knowledge
+405,Microservices Architecture,knowledge
+406,Linux/Unix Administration,knowledge
+407,Agile/Scrum,knowledge
+408,Cloud Security,knowledge
+409,Microservices,knowledge
+410,Cloud Computing,knowledge
+411,Agile/Scrum,knowledge
+412,DevOps/CI-CD,knowledge
+413,Domain-Driven Design (DDD),knowledge
+414,Security/IAM,knowledge
+415,Cloud Computing,knowledge
+416,Microservices,knowledge
+417,API Design,knowledge
+418,DevOps,knowledge
+419,Security,knowledge
+420,Agile,knowledge
+421,Statistical Modeling,knowledge
+422,Machine Learning,knowledge
+423,Hypothesis Testing,knowledge
+424,Clinical Trials (CDISC/ADaM),knowledge
+425,Data Visualization,knowledge
+426,Big Data,knowledge
+427,English Language,knowledge
+428,SAN/NAS Architectures,knowledge
+429,Fibre Channel / iSCSI,knowledge
+430,Backup & Disaster Recovery,knowledge
+431,Cloud Computing (AWS/Azure),knowledge
+432,Linux Administration,knowledge
+433,Linux Administration,knowledge
+434,"Networking (TCP/IP, DNS, VPN)",knowledge
+435,Cloud Computing (AWS/Azure),knowledge
+436,Cybersecurity,knowledge
+437,CI/CD Pipelines,knowledge
+438,ITIL,knowledge
+439,"Networking (DNS, DHCP, TCP/IP, VPN)",knowledge
+440,Microsoft Azure,knowledge
+441,Cybersecurity & System Hardening,knowledge
+442,ITIL Framework,knowledge
+443,"Networking (DNS, DHCP, TCP/IP, VPN)",knowledge
+444,Microsoft Azure,knowledge
+445,Cybersecurity & System Hardening,knowledge
+446,ITIL Framework,knowledge
+447,Cloud Computing (AWS/Azure/GCP),knowledge
+448,"Networking (TCP/IP, DNS, VPN)",knowledge
+449,Cybersecurity & Hardening,knowledge
+450,CI/CD Pipelines,knowledge
+451,Agile (Scrum/Kanban),knowledge
+452,Agile (Scrum/Kanban),knowledge
+453,SDLC (Software Development Life Cycle),knowledge
+454,Cloud Computing (AWS/Azure),knowledge
+455,System Design & Architecture,knowledge
+456,Microservices,knowledge
+457,CI/CD Pipelines,knowledge
+458,User-Centered Design,knowledge
+459,Agile,knowledge
+460,Content Strategy,knowledge
+461,UX Research,knowledge
+462,Accessibility (WCAG),knowledge
+463,Design Systems,knowledge
+464,Cloud Computing,knowledge
+465,Linux,knowledge
+466,English,knowledge
+467,Storage (SAN/NAS/vSAN),knowledge
+468,ITIL,knowledge
+469,CVSS (Common Vulnerability Scoring System),knowledge
+470,NIST Cybersecurity Framework,knowledge
+471,OWASP Top 10,knowledge
+472,Cloud Security (Azure/AWS),knowledge
+473,Patch Management,knowledge
+474,SEO Principles,knowledge
+475,UX/UI Design,knowledge
+476,REST API,knowledge
+477,Performance Optimization,knowledge

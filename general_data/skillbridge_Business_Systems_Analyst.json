@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Business Systems Analyst",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.8471,
+      "Python": 0.3647
+    },
+    "software": {
+      "Jira": 0.6824,
+      "Power BI": 0.4941,
+      "SAP": 0.4118,
+      "Salesforce": 0.3294,
+      "Excel (Advanced/VBA)": 0.8
+    },
+    "frameworks": {
+      ".NET": 0.2118,
+      "Spring Boot": 0.1412
+    },
+    "conoscenze_teoriche": {
+      "Agile": 0.8824,
+      "BPMN": 0.5647,
+      "SDLC": 0.7059,
+      "Scrum": 0.7647,
+      "Cloud Computing (Azure/AWS)": 0.4706,
+      "UML": 0.3765
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

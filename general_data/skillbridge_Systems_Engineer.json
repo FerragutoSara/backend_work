@@ -1,0 +1,32 @@
+{
+  "profilo_target": "Systems Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.6154,
+      "Bash/Shell Scripting": 0.4872
+    },
+    "software": {
+      "Linux (RHEL/Ubuntu/CentOS)": 0.7051,
+      "Docker & Kubernetes": 0.5256,
+      "Ansible & Terraform": 0.4359,
+      "Windows Server & Active Directory": 0.3205,
+      "VMware vSphere": 0.2821
+    },
+    "frameworks": {
+      ".NET Framework": 0.1538
+    },
+    "conoscenze_teoriche": {
+      "Cloud Computing (AWS/Azure/GCP)": 0.6667,
+      "Networking (TCP/IP, DNS, VPN)": 0.5769,
+      "Cybersecurity & Hardening": 0.4103,
+      "CI/CD Pipelines": 0.3718,
+      "Agile (Scrum/Kanban)": 0.2308
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

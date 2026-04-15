@@ -1,0 +1,391 @@
+id,skill,type
+1,Azure,software
+2,Git,software
+3,Docker,software
+4,SQL Server,software
+5,Kubernetes,software
+6,Microsoft Azure,software
+7,OneTrust,software
+8,Git,software
+9,Docker,software
+10,Jupyter,software
+11,Docker,software
+12,OpenAPI / Swagger,software
+13,AWS,software
+14,Kubernetes,software
+15,"Screen Readers (NVDA, JAWS, VoiceOver)",software
+16,"Automated Testing Tools (Axe, Lighthouse)",software
+17,Figma,software
+18,Git,software
+19,Docker,software
+20,Docker & Kubernetes,software
+21,Snyk,software
+22,Burp Suite,software
+23,Power BI,software
+24,Tableau,software
+25,Snowflake,software
+26,Qlik Sense,software
+27,Docker,software
+28,Git,software
+29,PostgreSQL,software
+30,Kubernetes,software
+31,Microsoft Azure,software
+32,AWS,software
+33,Databricks,software
+34,Docker/Kubernetes,software
+35,GCP,software
+36,Snowflake,software
+37,Jira,software
+38,Power BI,software
+39,SAP,software
+40,Salesforce,software
+41,Excel (Advanced/VBA),software
+42,Git,software
+43,CMake,software
+44,Docker,software
+45,CI/CD (Jenkins/GitLab),software
+46,"SIEM Tools (Splunk, QRadar)",software
+47,GRC Software,software
+48,EDR/XDR Solutions,software
+49,AWS,software
+50,Azure,software
+51,Terraform,software
+52,Kubernetes,software
+53,Docker,software
+54,GCP,software
+55,Amazon Web Services (AWS),software
+56,Microsoft Azure,software
+57,Terraform,software
+58,Kubernetes (K8s),software
+59,Docker,software
+60,Ansible,software
+61,Google Cloud Platform (GCP),software
+62,Azure,software
+63,AWS,software
+64,Terraform,software
+65,Kubernetes,software
+66,Docker,software
+67,Ansible,software
+68,Microsoft Azure (Sentinel/Defender),software
+69,SIEM & SOC Tools,software
+70,AWS Security Services,software
+71,Terraform,software
+72,Docker/Kubernetes,software
+73,AWS (Amazon Web Services),software
+74,Microsoft Azure,software
+75,Terraform,software
+76,Kubernetes,software
+77,Docker,software
+78,Google Cloud Platform (GCP),software
+79,Docker,software
+80,Git,software
+81,NVIDIA TensorRT,software
+82,HSM (Hardware Security Modules),software
+83,HashiCorp Vault,software
+84,Git,software
+85,Wireshark,software
+86,Splunk,software
+87,Microsoft Sentinel,software
+88,Wireshark,software
+89,CrowdStrike,software
+90,Excel,software
+91,Power BI,software
+92,Tableau,software
+93,BigQuery,software
+94,SAP,software
+95,Microsoft Azure,software
+96,Databricks,software
+97,Amazon Web Services (AWS),software
+98,Snowflake,software
+99,Power BI / Tableau,software
+100,ServiceNow,software
+101,Jira,software
+102,Zabbix/Nagios,software
+103,Microsoft Azure,software
+104,AWS,software
+105,Apache Airflow,software
+106,Databricks,software
+107,Docker/Kubernetes,software
+108,Snowflake,software
+109,Microsoft Excel,software
+110,OneTrust,software
+111,Azure,software
+112,PowerBI,software
+113,AWS,software
+114,Git,software
+115,Excel,software
+116,SAP MDG/ERP,software
+117,Collibra,software
+118,Informatica Axon,software
+119,Power BI,software
+120,Microsoft Purview,software
+121,Power BI,software
+122,Snowflake,software
+123,Databricks,software
+124,Tableau,software
+125,Informatica/Talend,software
+126,Oracle Database,software
+127,Microsoft SQL Server,software
+128,PostgreSQL,software
+129,Ansible,software
+130,MongoDB,software
+131,Oracle Database,software
+132,Microsoft SQL Server,software
+133,PostgreSQL,software
+134,Git,software
+135,Docker,software
+136,MongoDB,software
+137,Docker & Kubernetes,software
+138,"MLOps (MLflow, DVC)",software
+139,Git,software
+140,Figma,software
+141,Git,software
+142,Tokens Studio,software
+143,Kubernetes,software
+144,Docker,software
+145,Terraform,software
+146,Jenkins,software
+147,Ansible,software
+148,Git,software
+149,GitLab CI,software
+150,Prometheus/Grafana,software
+151,EnCase,software
+152,Magnet AXIOM,software
+153,FTK (Forensic Toolkit),software
+154,Cellebrite,software
+155,Volatility,software
+156,Wireshark,software
+157,Git,software
+158,STM32Cube / HAL,software
+159,MATLAB / Simulink,software
+160,Oscilloscopes & Logic Analyzers,software
+161,Microsoft Azure,software
+162,AWS,software
+163,SAP,software
+164,ArchiMate,software
+165,Salesforce,software
+166,Git,software
+167,STM32CubeIDE,software
+168,Logic Analyzers/Oscilloscopes,software
+169,Git,software
+170,Figma,software
+171,Docker,software
+172,Git,software
+173,Docker,software
+174,AWS,software
+175,Azure,software
+176,Kubernetes,software
+177,Microsoft Excel,software
+178,ServiceNow GRC,software
+179,OneTrust,software
+180,SAP GRC,software
+181,Git,software
+182,Visual Studio,software
+183,Docker,software
+184,Kubernetes,software
+185,AWS,software
+186,PostgreSQL,software
+187,Git,software
+188,Redis,software
+189,Microsoft Entra ID (Azure AD),software
+190,SailPoint,software
+191,CyberArk,software
+192,Okta,software
+193,Microsoft Azure,software
+194,SAP,software
+195,AWS,software
+196,Microsoft 365,software
+197,ServiceNow,software
+198,Jira,software
+199,Terraform,software
+200,Kubernetes,software
+201,Docker,software
+202,Git,software
+203,AWS,software
+204,Azure,software
+205,Ansible,software
+206,Splunk,software
+207,Microsoft Sentinel,software
+208,CrowdStrike,software
+209,Wireshark,software
+210,Git,software
+211,Docker,software
+212,Maven / Gradle,software
+213,Kubernetes,software
+214,Docker,software
+215,Kubernetes,software
+216,Terraform,software
+217,AWS,software
+218,Azure,software
+219,Git,software
+220,AWS,software
+221,Docker,software
+222,IDA Pro,software
+223,Wireshark,software
+224,Ghidra,software
+225,EDR/XDR Systems,software
+226,YARA,software
+227,Sandbox Environments (Cuckoo/Any.Run),software
+228,Android Studio,software
+229,Git,software
+230,Firebase,software
+231,Jira/Confluence,software
+232,Xcode,software
+233,Git,software
+234,CI/CD (Fastlane/Jenkins),software
+235,Firebase,software
+236,Git,software
+237,AWS,software
+238,Docker,software
+239,Terraform,software
+240,Ansible,software
+241,Cisco (Catalyst/Nexus/Meraki),software
+242,Fortinet/Palo Alto Networks,software
+243,Check Point,software
+244,F5 Load Balancers,software
+245,Cisco IOS/NX-OS,software
+246,Fortinet FortiGate,software
+247,Palo Alto Networks,software
+248,Ansible,software
+249,Wireshark,software
+250,Cisco DNA Center,software
+251,Fortinet FortiGate,software
+252,Cisco ASA/Firepower,software
+253,Palo Alto Networks,software
+254,Check Point,software
+255,Splunk,software
+256,Git,software
+257,Docker,software
+258,AWS,software
+259,Burp Suite,software
+260,Metasploit,software
+261,Nmap,software
+262,Nessus,software
+263,Kali Linux,software
+264,Wireshark,software
+265,Kubernetes,software
+266,Terraform,software
+267,Docker,software
+268,AWS,software
+269,Azure,software
+270,Prometheus,software
+271,Ansible,software
+272,Cloud Computing (Azure/AWS/GCP),software
+273,Tableau / Power BI,software
+274,Hadoop / Hive,software
+275,Git,software
+276,Docker,software
+277,PostgreSQL,software
+278,AWS,software
+279,Kubernetes,software
+280,Jira,software
+281,Git,software
+282,Postman,software
+283,Jenkins,software
+284,Docker,software
+285,Jira,software
+286,Postman,software
+287,Confluence,software
+288,Excel/VBA,software
+289,AWS,software
+290,Bloomberg Terminal,software
+291,Git,software
+292,Docker,software
+293,Figma,software
+294,Git,software
+295,Docker,software
+296,Figma,software
+297,PostgreSQL,software
+298,Git,software
+299,Docker,software
+300,AWS,software
+301,Redis,software
+302,Git,software
+303,Docker,software
+304,AWS,software
+305,Linux,software
+306,Kubernetes,software
+307,PostgreSQL,software
+308,Jenkins,software
+309,Docker,software
+310,Git,software
+311,Postman/Insomnia,software
+312,Jira,software
+313,"SIEM (Splunk, QRadar, Sentinel)",software
+314,"EDR Solutions (CrowdStrike, SentinelOne)",software
+315,Microsoft Azure / Entra ID,software
+316,Amazon Web Services (AWS),software
+317,SIEM (Splunk / Microsoft Sentinel),software
+318,Terraform,software
+319,Kubernetes,software
+320,Figma,software
+321,Miro,software
+322,Adobe Creative Suite,software
+323,Kubernetes,software
+324,Terraform,software
+325,Docker,software
+326,AWS,software
+327,Prometheus/Grafana,software
+328,Azure,software
+329,Ansible,software
+330,AWS,software
+331,Kubernetes,software
+332,Azure,software
+333,Docker,software
+334,Kafka,software
+335,AWS,software
+336,Azure,software
+337,Kubernetes,software
+338,Docker,software
+339,Terraform,software
+340,SAS,software
+341,Microsoft Excel,software
+342,Tableau,software
+343,Power BI,software
+344,NetApp (ONTAP),software
+345,Dell EMC (Unity/PowerStore),software
+346,Veeam Backup & Replication,software
+347,VMware vSphere,software
+348,Ansible,software
+349,Commvault,software
+350,Brocade / Cisco SAN Switches,software
+351,Docker,software
+352,Kubernetes,software
+353,VMware vSphere,software
+354,Git,software
+355,Windows Server (2016/2019/2022),software
+356,Active Directory & Group Policy,software
+357,VMware vSphere / ESXi,software
+358,Microsoft 365 / Exchange Online,software
+359,Veeam Backup & Replication,software
+360,Windows Server (2016/2019/2022),software
+361,Active Directory & Group Policy,software
+362,VMware vSphere / ESXi,software
+363,Microsoft 365 / Exchange Online,software
+364,Veeam Backup & Replication,software
+365,Linux (RHEL/Ubuntu/CentOS),software
+366,Docker & Kubernetes,software
+367,Ansible & Terraform,software
+368,Windows Server & Active Directory,software
+369,VMware vSphere,software
+370,Jira,software
+371,Confluence,software
+372,Microsoft Project,software
+373,Tableau / PowerBI,software
+374,Figma,software
+375,Jira,software
+376,Miro,software
+377,Frontitude,software
+378,VMware vSphere,software
+379,Ansible,software
+380,Terraform,software
+381,Veeam,software
+382,Microsoft Azure,software
+383,Docker,software
+384,Kubernetes,software
+385,Qualys,software
+386,Tenable / Nessus,software
+387,ServiceNow,software
+388,WordPress Core,software
+389,Git,software
+390,Elementor/Divi,software

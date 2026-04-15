@@ -1,0 +1,37 @@
+{
+  "profilo_target": "Enterprise Architect",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.4,
+      "Java": 0.3529,
+      "Python": 0.2824
+    },
+    "software": {
+      "Microsoft Azure": 0.6118,
+      "AWS": 0.5294,
+      "SAP": 0.3765,
+      "ArchiMate": 0.3294,
+      "Salesforce": 0.2588
+    },
+    "frameworks": {
+      "Spring Boot": 0.2118
+    },
+    "conoscenze_teoriche": {
+      "Cloud Computing": 0.8471,
+      "TOGAF": 0.7529,
+      "Agile": 0.6471,
+      "Microservices": 0.5647,
+      "Cybersecurity": 0.4941,
+      "Data Architecture": 0.4706,
+      "IT Governance": 0.4471,
+      "API Management": 0.4118,
+      "Digital Transformation": 0.5176
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

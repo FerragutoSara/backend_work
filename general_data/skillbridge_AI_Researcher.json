@@ -1,0 +1,35 @@
+{
+  "profilo_target": "AI Researcher",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.96,
+      "SQL": 0.56,
+      "C++": 0.24
+    },
+    "software": {
+      "Git": 0.7733,
+      "Docker": 0.5067,
+      "Jupyter": 0.4267
+    },
+    "frameworks": {
+      "PyTorch": 0.8667,
+      "TensorFlow": 0.64,
+      "Hugging Face": 0.3733,
+      "Scikit-learn": 0.4667
+    },
+    "conoscenze_teoriche": {
+      "Deep Learning": 0.9333,
+      "Generative AI": 0.8,
+      "Natural Language Processing (NLP)": 0.6933,
+      "Mathematics & Statistics": 0.7333,
+      "Cloud Computing (AWS/Azure/GCP)": 0.6,
+      "Computer Vision": 0.4533
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

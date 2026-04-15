@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Data Privacy Officer (DPO)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.1412,
+      "Python": 0.0941
+    },
+    "software": {
+      "Microsoft Excel": 0.5647,
+      "OneTrust": 0.4
+    },
+    "frameworks": {
+      "NIST Privacy Framework": 0.2118
+    },
+    "conoscenze_teoriche": {
+      "GDPR (EU Regulation 2016/679)": 1,
+      "English (Professional Proficiency)": 0.9176,
+      "DPIA (Data Protection Impact Assessment)": 0.8235,
+      "Italian Privacy Code (D.Lgs. 196/03)": 0.7294,
+      "Risk Management & Assessment": 0.6824,
+      "Privacy by Design & Default": 0.6118,
+      "ISO/IEC 27001": 0.5294,
+      "Cybersecurity Fundamentals": 0.4941,
+      "Audit & Compliance Reporting": 0.4706
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

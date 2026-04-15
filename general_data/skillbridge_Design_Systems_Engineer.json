@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Design Systems Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "TypeScript": 0.8471,
+      "JavaScript": 0.8235,
+      "CSS/Sass": 0.8
+    },
+    "software": {
+      "Figma": 0.9412,
+      "Git": 0.7294,
+      "Tokens Studio": 0.3294
+    },
+    "frameworks": {
+      "React": 0.8824,
+      "Storybook": 0.6471,
+      "Next.js": 0.3765
+    },
+    "conoscenze_teoriche": {
+      "Accessibility (WCAG)": 0.7059,
+      "Design Tokens": 0.6824,
+      "Agile": 0.7647,
+      "Atomic Design": 0.5294,
+      "CI/CD": 0.4706
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

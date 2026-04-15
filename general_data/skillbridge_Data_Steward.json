@@ -1,0 +1,35 @@
+{
+  "profilo_target": "Data Steward",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.8056,
+      "Python": 0.3889
+    },
+    "software": {
+      "Excel": 0.9028,
+      "SAP MDG/ERP": 0.4306,
+      "Collibra": 0.3333,
+      "Informatica Axon": 0.2917,
+      "Power BI": 0.4861,
+      "Microsoft Purview": 0.25
+    },
+    "frameworks": {
+      "Agile": 0.3472
+    },
+    "conoscenze_teoriche": {
+      "Data Governance": 1,
+      "Data Quality": 0.9444,
+      "GDPR": 0.7639,
+      "Master Data Management (MDM)": 0.6667,
+      "Metadata Management": 0.625,
+      "Data Lineage": 0.5556,
+      "DAMA-DMBOK": 0.3056
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

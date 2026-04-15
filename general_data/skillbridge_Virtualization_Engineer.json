@@ -1,0 +1,35 @@
+{
+  "profilo_target": "Virtualization Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.4634,
+      "PowerShell": 0.4024,
+      "Bash": 0.2317
+    },
+    "software": {
+      "VMware vSphere": 0.8293,
+      "Ansible": 0.5122,
+      "Terraform": 0.4268,
+      "Veeam": 0.378,
+      "Microsoft Azure": 0.3659,
+      "Docker": 0.3415,
+      "Kubernetes": 0.3049
+    },
+    "frameworks": {
+      "PowerCLI": 0.2927
+    },
+    "conoscenze_teoriche": {
+      "Cloud Computing": 0.7073,
+      "Linux": 0.6585,
+      "English": 0.6098,
+      "Storage (SAN/NAS/vSAN)": 0.2683,
+      "ITIL": 0.2439
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

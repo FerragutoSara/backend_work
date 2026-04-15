@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Machine Learning Engineer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.95,
+      "SQL": 0.775
+    },
+    "software": {
+      "Git": 0.725,
+      "AWS": 0.55,
+      "Docker": 0.475
+    },
+    "frameworks": {
+      "Scikit-learn": 0.675,
+      "PyTorch": 0.6,
+      "TensorFlow": 0.45
+    },
+    "conoscenze_teoriche": {
+      "Deep Learning": 0.65,
+      "MLOps": 0.525,
+      "Statistics": 0.625,
+      "Agile": 0.5,
+      "NLP": 0.35,
+      "Generative AI (LLM/RAG)": 0.3125
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

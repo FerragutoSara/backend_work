@@ -1,0 +1,36 @@
+{
+  "profilo_target": "Cryptographer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.7742,
+      "C++": 0.5806,
+      "C": 0.4677,
+      "Rust": 0.2903,
+      "Go": 0.2258
+    },
+    "software": {
+      "HSM (Hardware Security Modules)": 0.6613,
+      "HashiCorp Vault": 0.4355,
+      "Git": 0.7097,
+      "Wireshark": 0.2419
+    },
+    "frameworks": {
+      "OpenSSL": 0.5161,
+      "Libsodium": 0.1774
+    },
+    "conoscenze_teoriche": {
+      "PKI (Public Key Infrastructure)": 0.871,
+      "Blockchain & Smart Contracts": 0.4032,
+      "Post-Quantum Cryptography (PQC)": 0.1935,
+      "Zero-Knowledge Proofs (ZKP)": 0.1452,
+      "Cloud Security (AWS/Azure)": 0.6129,
+      "ISO 27001 / NIST Standards": 0.5
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

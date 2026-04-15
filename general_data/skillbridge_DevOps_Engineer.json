@@ -1,0 +1,39 @@
+{
+  "profilo_target": "DevOps Engineer",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.74,
+      "Bash/Shell": 0.68,
+      "Go": 0.22
+    },
+    "software": {
+      "Kubernetes": 0.86,
+      "Docker": 0.92,
+      "Terraform": 0.81,
+      "Jenkins": 0.54,
+      "Ansible": 0.48,
+      "Git": 0.94,
+      "GitLab CI": 0.46,
+      "Prometheus/Grafana": 0.38
+    },
+    "frameworks": {
+      "AWS CDK": 0.18,
+      "Terragrunt": 0.14,
+      "Pytest": 0.12
+    },
+    "conoscenze_teoriche": {
+      "CI/CD Pipelines": 0.96,
+      "Cloud Computing (AWS/Azure)": 0.88,
+      "Microservices": 0.72,
+      "Linux System Administration": 0.84,
+      "Agile/Scrum": 0.65,
+      "DevSecOps/Security": 0.42
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

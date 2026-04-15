@@ -1,0 +1,32 @@
+{
+  "profilo_target": "PHP Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "PHP": 1,
+      "MySQL / SQL": 0.8471,
+      "JavaScript": 0.7529
+    },
+    "software": {
+      "Git": 0.8706,
+      "Docker": 0.4941,
+      "AWS": 0.3294
+    },
+    "frameworks": {
+      "Laravel": 0.6118,
+      "Symfony": 0.4471,
+      "React / Vue.js": 0.3647
+    },
+    "conoscenze_teoriche": {
+      "REST API": 0.7176,
+      "Agile / Scrum": 0.5647,
+      "Microservices": 0.2588,
+      "E-commerce (Magento/PrestaShop)": 0.2235
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

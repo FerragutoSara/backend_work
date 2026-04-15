@@ -1,0 +1,353 @@
+role_id,skill_id,skill_name,category,threshold,penalty
+11,5,C#,Language,0.54,0.05
+11,163,.NET Core,framework,0.54,0.05
+11,390,REST APIs,knowledge,0.54,0.05
+11,166,ASP.NET Web API,framework,0.54,0.05
+11,330,Git,software,0.54,0.05
+11,30,SQL,Language,0.54,0.05
+61,319,EU AI Act,knowledge,0.54,0.05
+61,328,GDPR,knowledge,0.54,0.05
+61,395,Risk Management,knowledge,0.54,0.05
+61,277,Bias Mitigation,knowledge,0.48,0.05
+54,25,Python,Language,0.54,0.05
+54,306,Deep Learning,knowledge,0.54,0.05
+54,225,PyTorch,framework,0.54,0.05
+54,329,Generative AI & LLMs,knowledge,0.54,0.05
+19,390,REST APIs,knowledge,0.54,0.05
+19,15,Java,Language,0.48,0.05
+19,30,SQL,Language,0.48,0.05
+19,242,Spring Boot,framework,0.48,0.05
+89,433,WCAG 2.1/2.2,knowledge,0.54,0.05
+89,13,HTML/CSS,Language,0.54,0.05
+89,432,WAI-ARIA,knowledge,0.54,0.05
+8,171,Angular,framework,0.54,0.05
+8,35,TypeScript,Language,0.54,0.05
+8,16,JavaScript,Language,0.54,0.05
+8,13,HTML/CSS,Language,0.54,0.05
+74,377,OWASP Top 10,knowledge,0.54,0.05
+74,399,SAST/DAST/SCA,knowledge,0.54,0.05
+74,25,Python,Language,0.48,0.05
+55,30,SQL,Language,0.54,0.05
+55,123,Power BI,software,0.54,0.05
+55,318,ETL/ELT,knowledge,0.48,0.05
+55,304,Data Warehousing,knowledge,0.48,0.05
+2,30,SQL,Language,0.54,0.05
+2,15,Java,Language,0.54,0.05
+2,390,REST APIs,knowledge,0.48,0.05
+2,242,Spring Boot,framework,0.48,0.05
+56,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+56,30,SQL,Language,0.54,0.05
+56,175,Apache Spark,framework,0.54,0.05
+56,25,Python,Language,0.54,0.05
+56,301,Data Modeling,knowledge,0.54,0.05
+97,270,Agile/Scrum,knowledge,0.54,0.05
+97,30,SQL,Language,0.54,0.05
+97,73,Excel,software,0.54,0.05
+97,270,Agile/Scrum,knowledge,0.54,0.05
+16,7,C++,Language,0.54,0.05
+16,351,Linux,knowledge,0.48,0.05
+16,376,OOP,knowledge,0.48,0.05
+16,330,Git,software,0.48,0.05
+70,338,ISO 27001,knowledge,0.54,0.05
+70,395,Risk Management,knowledge,0.54,0.05
+70,328,GDPR,knowledge,0.54,0.05
+70,281,CISSP/CISM,knowledge,0.54,0.05
+29,36,AWS,software,0.54,0.05
+29,273,Azure,software,0.48,0.05
+29,363,Microservices,knowledge,0.48,0.05
+29,251,Terraform,software,0.48,0.05
+30,280,CI/CD,knowledge,0.54,0.05
+30,345,Infrastructure as Code,knowledge,0.54,0.05
+30,36,AWS,software,0.54,0.05
+30,25,Python,Language,0.48,0.05
+30,251,Terraform,software,0.48,0.05
+32,273,Azure,software,0.54,0.05
+32,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.48,0.05
+32,36,AWS,software,0.48,0.05
+32,280,CI/CD,knowledge,0.48,0.05
+80,321,English,knowledge,0.54,0.05
+80,336,IAM,knowledge,0.54,0.05
+80,273,Azure,software,0.54,0.05
+31,36,AWS,software,0.54,0.05
+31,273,Azure,software,0.54,0.05
+31,25,Python,Language,0.48,0.05
+31,251,Terraform,software,0.48,0.05
+52,25,Python,Language,0.54,0.05
+52,306,Deep Learning,knowledge,0.54,0.05
+52,321,English,knowledge,0.54,0.05
+52,225,PyTorch,framework,0.54,0.05
+73,381,PKI,knowledge,0.54,0.05
+73,25,Python,Language,0.54,0.05
+73,330,Git,software,0.54,0.05
+73,86,HSM,software,0.48,0.05
+73,288,Cloud Security (AWS/Azure/GCP),knowledge,0.48,0.05
+66,371,Network Security,knowledge,0.54,0.05
+66,343,Incident Response,knowledge,0.48,0.05
+66,146,Splunk,software,0.48,0.05
+66,338,ISO 27001,framework,0.48,0.05
+48,30,SQL,Language,0.54,0.05
+48,73,Excel,software,0.54,0.05
+48,25,Python,Language,0.48,0.05
+48,123,Power BI,software,0.48,0.05
+57,30,SQL,Language,0.54,0.05
+57,301,Data Modeling,knowledge,0.54,0.05
+57,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+57,25,Python,Language,0.48,0.05
+40,333,Hardware Troubleshooting,knowledge,0.54,0.05
+40,372,"Networking (TCP/IP, DNS, VPN)",knowledge,0.54,0.05
+40,324,Fiber and Copper Cabling,knowledge,0.54,0.05
+47,30,SQL,Language,0.54,0.05
+47,25,Python,Language,0.54,0.05
+47,318,ETL/ELT,knowledge,0.54,0.05
+47,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+62,328,GDPR,knowledge,0.54,0.05
+62,321,English,knowledge,0.54,0.05
+62,297,DPIA,knowledge,0.54,0.05
+62,349,Italian Privacy Code,knowledge,0.54,0.05
+46,25,Python,Language,0.54,0.05
+46,356,Machine Learning,knowledge,0.54,0.05
+46,30,SQL,Language,0.54,0.05
+46,412,Statistics,knowledge,0.54,0.05
+60,299,Data Governance,knowledge,0.54,0.05
+60,302,Data Quality,knowledge,0.54,0.05
+60,73,Excel,software,0.54,0.05
+60,30,SQL,Language,0.54,0.05
+58,30,SQL,Language,0.54,0.05
+58,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+58,301,Data Modeling,knowledge,0.54,0.05
+58,318,ETL/ELT,knowledge,0.54,0.05
+37,30,SQL,Language,0.54,0.05
+37,321,English,knowledge,0.54,0.05
+37,276,Backup & Recovery,knowledge,0.48,0.05
+37,118,Oracle Database,software,0.48,0.05
+59,30,SQL,Language,0.54,0.05
+59,318,ETL/ELT,knowledge,0.54,0.05
+59,23,PL/SQL,Language,0.48,0.05
+59,118,Oracle Database,software,0.48,0.05
+59,384,Performance Tuning,knowledge,0.48,0.05
+59,34,T-SQL,Language,0.48,0.05
+50,25,Python,Language,0.54,0.05
+50,321,English,knowledge,0.54,0.05
+50,373,Neural Network Architectures,knowledge,0.54,0.05
+50,330,Git,software,0.54,0.05
+90,76,Figma,software,0.54,0.05
+90,231,React,framework,0.54,0.05
+90,35,TypeScript,Language,0.54,0.05
+90,16,JavaScript,Language,0.54,0.05
+26,280,CI/CD,knowledge,0.54,0.05
+26,330,Git,software,0.54,0.05
+26,68,Docker,software,0.54,0.05
+26,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+26,96,Kubernetes,software,0.54,0.05
+26,351,Linux,knowledge,0.54,0.05
+72,343,Incident Response,knowledge,0.54,0.05
+72,352,MITRE ATT&CK,framework,0.54,0.05
+72,25,Python,Language,0.54,0.05
+72,157,Wireshark,software,0.48,0.05
+17,4,C,Language,0.54,0.05
+17,289,Communication Protocols (I2C/SPI/UART),knowledge,0.54,0.05
+17,267,ARM Cortex-M,knowledge,0.54,0.05
+17,330,Git,software,0.48,0.05
+39,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+39,416,TOGAF,knowledge,0.54,0.05
+39,270,Agile/Scrum,knowledge,0.48,0.05
+39,273,Azure,software,0.48,0.05
+39,363,Microservices,knowledge,0.48,0.05
+18,4,C,Language,0.54,0.05
+18,267,ARM Cortex-M,knowledge,0.54,0.05
+18,289,Communication Protocols (I2C/SPI/UART),knowledge,0.54,0.05
+18,391,RTOS Concepts,knowledge,0.54,0.05
+1,16,JavaScript,Language,0.54,0.05
+1,13,HTML/CSS,Language,0.54,0.05
+1,35,TypeScript,Language,0.54,0.05
+1,330,Git,software,0.54,0.05
+3,16,JavaScript,Language,0.54,0.05
+3,330,Git,software,0.54,0.05
+3,390,REST APIs,knowledge,0.54,0.05
+3,30,SQL,Language,0.54,0.05
+3,270,Agile/Scrum,knowledge,0.48,0.05
+3,35,TypeScript,Language,0.48,0.05
+77,395,Risk Management,knowledge,0.54,0.05
+77,338,ISO 27001,knowledge,0.54,0.05
+77,328,GDPR,knowledge,0.54,0.05
+77,321,English,knowledge,0.54,0.05
+24,376,OOP,knowledge,0.54,0.05
+24,255,Unity,framework,0.48,0.05
+24,5,C#,Language,0.48,0.05
+14,12,Go,Language,0.54,0.05
+14,363,Microservices,knowledge,0.54,0.05
+14,68,Docker,software,0.54,0.05
+14,96,Kubernetes,software,0.54,0.05
+76,397,SAML/OAuth/OIDC,knowledge,0.54,0.05
+76,104,Microsoft Entra ID,software,0.54,0.05
+76,288,Cloud Security (AWS/Azure/GCP),knowledge,0.48,0.05
+76,337,IGA,knowledge,0.48,0.05
+99,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+99,270,Agile/Scrum,knowledge,0.54,0.05
+99,30,SQL,Language,0.48,0.05
+45,342,ITIL,framework,0.54,0.05
+45,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+45,293,Cybersecurity,knowledge,0.48,0.05
+45,430,Vendor Management,knowledge,0.48,0.05
+41,251,Terraform,software,0.54,0.05
+41,280,CI/CD,knowledge,0.54,0.05
+41,96,Kubernetes,software,0.54,0.05
+41,68,Docker,software,0.54,0.05
+71,343,Incident Response,knowledge,0.54,0.05
+71,403,SIEM,knowledge,0.54,0.05
+71,288,Cloud Security (AWS/Azure/GCP),knowledge,0.48,0.05
+71,146,Splunk,software,0.48,0.05
+10,15,Java,Language,0.54,0.05
+10,242,Spring Boot,framework,0.54,0.05
+10,330,Git,software,0.54,0.05
+10,390,REST APIs,knowledge,0.54,0.05
+53,25,Python,Language,0.54,0.05
+53,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+53,280,CI/CD,knowledge,0.54,0.05
+53,68,Docker,software,0.54,0.05
+49,25,Python,Language,0.54,0.05
+49,30,SQL,Language,0.54,0.05
+49,330,Git,software,0.54,0.05
+49,238,Scikit-learn,framework,0.48,0.05
+78,393,Reverse Engineering,knowledge,0.54,0.05
+78,25,Python,Language,0.54,0.05
+78,89,IDA Pro,software,0.54,0.05
+78,411,Static and Dynamic Analysis,knowledge,0.48,0.05
+5,39,Android Studio,software,0.54,0.05
+5,170,Android SDK,framework,0.54,0.05
+5,18,Kotlin,Language,0.54,0.05
+5,390,REST APIs,knowledge,0.54,0.05
+5,330,Git,software,0.54,0.05
+4,33,Swift,Language,0.54,0.05
+4,159,Xcode,software,0.54,0.05
+4,330,Git,software,0.54,0.05
+4,390,REST APIs,knowledge,0.54,0.05
+51,25,Python,Language,0.54,0.05
+51,321,English,knowledge,0.54,0.05
+51,350,LLMs,knowledge,0.54,0.05
+51,306,Deep Learning,knowledge,0.54,0.05
+34,396,Routing & Switching,knowledge,0.54,0.05
+34,287,Cloud Networking,knowledge,0.54,0.05
+34,56,Cisco,software,0.54,0.05
+34,371,Network Security,knowledge,0.54,0.05
+33,415,TCP/IP & Networking Protocols,knowledge,0.54,0.05
+33,396,Routing & Switching,knowledge,0.54,0.05
+33,59,Cisco IOS/NX-OS,software,0.54,0.05
+33,371,Network Security,knowledge,0.48,0.05
+75,415,TCP/IP & Networking Protocols,knowledge,0.54,0.05
+75,321,English,knowledge,0.54,0.05
+75,429,VPN Technologies,knowledge,0.54,0.05
+75,78,Fortinet FortiGate,software,0.54,0.05
+12,22,PHP,Language,0.54,0.05
+12,330,Git,software,0.54,0.05
+12,30,SQL,Language,0.54,0.05
+67,50,Burp Suite,software,0.54,0.05
+67,377,OWASP Top 10,knowledge,0.54,0.05
+67,25,Python,Language,0.54,0.05
+67,371,Network Security,knowledge,0.54,0.05
+28,96,Kubernetes,software,0.54,0.05
+28,280,CI/CD,knowledge,0.54,0.05
+28,251,Terraform,software,0.54,0.05
+28,68,Docker,software,0.54,0.05
+28,330,Git,knowledge,0.54,0.05
+64,356,Machine Learning,knowledge,0.54,0.05
+64,25,Python,Language,0.54,0.05
+64,412,Statistics,knowledge,0.54,0.05
+64,30,SQL,Language,0.54,0.05
+9,25,Python,Language,0.54,0.05
+9,330,Git,software,0.54,0.05
+9,30,SQL,Language,0.54,0.05
+9,390,REST APIs,knowledge,0.48,0.05
+22,270,Agile/Scrum,knowledge,0.54,0.05
+22,93,Jira,software,0.54,0.05
+22,330,Git,software,0.54,0.05
+22,266,API Testing,knowledge,0.54,0.05
+22,122,Postman,software,0.54,0.05
+22,280,CI/CD,knowledge,0.54,0.05
+21,270,Agile/Scrum,knowledge,0.54,0.05
+21,93,Jira,software,0.54,0.05
+21,392,Regression Testing,knowledge,0.54,0.05
+63,25,Python,Language,0.54,0.05
+63,327,Financial Mathematics,knowledge,0.54,0.05
+63,30,SQL,Language,0.48,0.05
+63,73,Excel,software,0.48,0.05
+6,16,JavaScript,Language,0.54,0.05
+6,231,React,framework,0.54,0.05
+6,330,Git,software,0.54,0.05
+13,27,Ruby,Language,0.54,0.05
+13,234,Ruby on Rails,framework,0.54,0.05
+13,30,SQL,Language,0.54,0.05
+13,390,REST APIs,knowledge,0.54,0.05
+15,28,Rust,Language,0.54,0.05
+15,330,Git,software,0.54,0.05
+15,68,Docker,software,0.54,0.05
+15,363,Microservices,knowledge,0.54,0.05
+23,270,Agile/Scrum,knowledge,0.54,0.05
+23,280,CI/CD,knowledge,0.54,0.05
+23,266,API Testing,knowledge,0.54,0.05
+23,330,Git,software,0.54,0.05
+23,15,Java,Language,0.48,0.05
+69,134,SIEM (Splunk/QRadar/Sentinel),software,0.54,0.05
+69,343,Incident Response,knowledge,0.54,0.05
+69,415,TCP/IP & Networking Protocols,knowledge,0.54,0.05
+68,273,Azure,software,0.48,0.05
+68,338,ISO 27001,knowledge,0.48,0.05
+68,36,AWS,software,0.48,0.05
+68,336,IAM,knowledge,0.39,0.05
+87,310,Design Thinking,knowledge,0.54,0.05
+87,292,Customer Journey Mapping,knowledge,0.54,0.05
+87,408,Service Blueprinting,knowledge,0.54,0.05
+87,321,English,knowledge,0.54,0.05
+27,280,CI/CD,knowledge,0.54,0.05
+27,96,Kubernetes,software,0.54,0.05
+27,68,Docker,software,0.54,0.05
+27,251,Terraform,software,0.54,0.05
+27,345,Infrastructure as Code,knowledge,0.54,0.05
+27,25,Python,Language,0.54,0.05
+20,363,Microservices,knowledge,0.54,0.05
+20,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+20,15,Java,Language,0.48,0.05
+20,36,AWS,software,0.48,0.05
+20,96,Kubernetes,software,0.48,0.05
+38,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+38,363,Microservices,knowledge,0.54,0.05
+38,264,API Design,knowledge,0.54,0.05
+38,36,AWS,software,0.54,0.05
+65,321,English,knowledge,0.54,0.05
+65,412,Statistics,knowledge,0.54,0.05
+65,26,R,Language,0.54,0.05
+65,25,Python,Language,0.48,0.05
+65,30,SQL,Language,0.48,0.05
+43,398,SAN/NAS Architectures,knowledge,0.54,0.05
+43,275,Backup & Disaster Recovery,knowledge,0.54,0.05
+43,325,Fibre Channel/iSCSI,knowledge,0.54,0.05
+43,113,NetApp,software,0.48,0.05
+35,351,Linux,knowledge,0.54,0.05
+35,3,Bash/Shell,Language,0.54,0.05
+35,172,Ansible,framework,0.48,0.05
+35,68,Docker,software,0.48,0.05
+36,155,Windows Server,software,0.54,0.05
+36,37,Active Directory & Group Policy,software,0.54,0.05
+36,372,"Networking (TCP/IP, DNS, VPN)",knowledge,0.54,0.05
+44,351,Linux,software,0.54,0.05
+44,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.48,0.05
+44,25,Python,Language,0.48,0.05
+96,270,Agile/Scrum,knowledge,0.54,0.05
+96,401,SDLC,knowledge,0.54,0.05
+96,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.48,0.05
+96,93,Jira,software,0.48,0.05
+88,321,English,Language,0.54,0.05
+88,76,Figma,software,0.54,0.05
+88,428,User-Centered Design,knowledge,0.54,0.05
+88,14,Italian,Language,0.54,0.05
+42,151,VMware vSphere,software,0.54,0.05
+42,286,Cloud Computing (AWS/Azure/GCP),knowledge,0.54,0.05
+42,351,Linux,knowledge,0.48,0.05
+42,321,English,knowledge,0.48,0.05
+79,282,CVSS,knowledge,0.54,0.05
+79,382,Patch Management,knowledge,0.54,0.05
+79,128,Qualys,software,0.54,0.05
+25,158,WordPress Core,software,0.54,0.05
+25,13,HTML/CSS,Language,0.54,0.05
+25,22,PHP,Language,0.54,0.05
+25,16,JavaScript,Language,0.54,0.05

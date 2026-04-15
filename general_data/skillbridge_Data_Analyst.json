@@ -1,0 +1,34 @@
+{
+  "profilo_target": "Data Analyst",
+  "location": "Milano, Italy",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "SQL": 0.8353,
+      "Python": 0.6941,
+      "R": 0.2118
+    },
+    "software": {
+      "Excel": 0.7647,
+      "Power BI": 0.5647,
+      "Tableau": 0.2588,
+      "BigQuery": 0.2118,
+      "SAP": 0.1647
+    },
+    "frameworks": {
+      "Pandas": 0.1412,
+      "DBT": 0.1059
+    },
+    "conoscenze_teoriche": {
+      "Data Visualization": 0.4941,
+      "Statistics": 0.2235,
+      "ETL": 0.2,
+      "Agile": 0.1765,
+      "Data Governance": 0.1294
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

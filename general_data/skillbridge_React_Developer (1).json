@@ -1,0 +1,32 @@
+{
+  "profilo_target": "React Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "JavaScript": 1,
+      "TypeScript": 0.8706,
+      "CSS/SCSS": 0.6471
+    },
+    "software": {
+      "Git": 0.9176,
+      "Docker": 0.4235,
+      "Figma": 0.6118
+    },
+    "frameworks": {
+      "React": 1,
+      "Next.js": 0.7059,
+      "Redux": 0.3412
+    },
+    "conoscenze_teoriche": {
+      "Agile/Scrum": 0.8,
+      "REST APIs": 0.8471,
+      "Testing (Jest/RTL)": 0.6824,
+      "GraphQL": 0.5176
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

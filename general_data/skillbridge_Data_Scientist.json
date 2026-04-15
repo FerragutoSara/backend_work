@@ -1,0 +1,35 @@
+{
+  "profilo_target": "Data Scientist",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.9529,
+      "SQL": 0.8,
+      "R": 0.2706
+    },
+    "software": {
+      "Azure": 0.4471,
+      "PowerBI": 0.4118,
+      "AWS": 0.4,
+      "Git": 0.2941
+    },
+    "frameworks": {
+      "Pandas": 0.6824,
+      "Scikit-learn": 0.6471,
+      "TensorFlow": 0.4941,
+      "PyTorch": 0.3765,
+      "Spark": 0.3294
+    },
+    "conoscenze_teoriche": {
+      "Machine Learning": 0.8941,
+      "Statistics": 0.7059,
+      "Generative AI": 0.3529,
+      "Agile": 0.2588
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

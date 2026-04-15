@@ -1,0 +1,34 @@
+{
+  "profilo_target": "WordPress Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "PHP": 0.8529,
+      "HTML5/CSS3": 0.9118,
+      "JavaScript": 0.8088,
+      "SQL/MySQL": 0.7059
+    },
+    "software": {
+      "WordPress Core": 1,
+      "Git": 0.6176,
+      "Elementor/Divi": 0.4559
+    },
+    "frameworks": {
+      "WooCommerce": 0.5,
+      "Bootstrap": 0.4118,
+      "React": 0.2647,
+      "Laravel": 0.2206
+    },
+    "conoscenze_teoriche": {
+      "SEO Principles": 0.5147,
+      "UX/UI Design": 0.4265,
+      "REST API": 0.3824,
+      "Performance Optimization": 0.3529
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "profilo_target": ".NET Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "C#": 1,
+      "SQL": 0.8,
+      "TypeScript": 0.4941,
+      "JavaScript": 0.4471
+    },
+    "software": {
+      "Azure": 0.6471,
+      "Git": 0.8235,
+      "Docker": 0.4824,
+      "SQL Server": 0.6824,
+      "Kubernetes": 0.2118
+    },
+    "frameworks": {
+      ".NET Core / .NET 6-8": 0.9294,
+      "ASP.NET Web API": 0.8471,
+      "Entity Framework Core": 0.7647,
+      "Angular": 0.5647,
+      "React": 0.2588
+    },
+    "conoscenze_teoriche": {
+      "Microservices": 0.6118,
+      "REST API": 0.8706,
+      "Agile/Scrum": 0.7294,
+      "SOLID Principles": 0.5294,
+      "Unit Testing/TDD": 0.4588,
+      "Cloud Computing": 0.6
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

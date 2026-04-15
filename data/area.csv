@@ -1,6 +1,6 @@
-id,area,description
-SOFT_DEV,Sviluppo software & AI,"Progettazione, costruzione e manutenzione di prodotti digitali e sistemi software scalabili."
-CYBER,Cybersecurity,"Proteggere l'integrità, la riservatezza e la disponibilità delle informazioni e degli asset digitali."
-UX_UI,Design UX|UI,"Definire la strategia di prodotto e garantire la migliore esperienza possibile per l'utente finale."
-DEVOPS,Cloud & DevOps,"Garantire la disponibilità, la scalabilità e l'efficienza dei sistemi su cui poggiano i software."
-DATA,Data & AI,"Estrarre valore dai dati per supportare decisioni strategiche e creare sistemi predittivi autonomi."
+id,area,descrizione
+SOFT_DEV,Sviluppo Soft,"Area focalizzata sulla progettazione, costruzione e manutenzione di prodotti digitali e sistemi software scalabili."
+DEVOPS,Cloud & DevOps,"Settore dedicato a garantire disponibilità, scalabilità ed efficienza dei sistemi e delle infrastrutture (fisiche, virtuali o cloud)."
+DATA,Data AI,"Dominio volto a estrarre valore dai dati per supportare decisioni strategiche e creare sistemi predittivi autonomi."
+CYBER,Cybersecurity,"Area dedicata alla protezione dell'integrità, riservatezza e disponibilità degli asset digitali e alla gestione del rischio."
+UX_UI,Design UX/UI,"Ambito relativo alla definizione della strategia di prodotto e alla garanzia della migliore esperienza utente."

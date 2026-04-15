@@ -1,0 +1,39 @@
+{
+  "profilo_target": "Site Reliability Engineer (SRE)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Python": 0.7529,
+      "Go (Golang)": 0.4471,
+      "Bash/Shell": 0.6118,
+      "Java": 0.2588
+    },
+    "software": {
+      "Kubernetes": 0.8471,
+      "Terraform": 0.8,
+      "Docker": 0.8235,
+      "AWS": 0.6471,
+      "Prometheus/Grafana": 0.5647,
+      "Azure": 0.3765,
+      "Ansible": 0.3294
+    },
+    "frameworks": {
+      "Flask": 0.1412,
+      "Spring Boot": 0.1765
+    },
+    "conoscenze_teoriche": {
+      "CI/CD": 0.8941,
+      "Infrastructure as Code (IaC)": 0.7647,
+      "Observability": 0.6353,
+      "Microservices Architecture": 0.5294,
+      "Linux/Unix Administration": 0.7294,
+      "Agile/Scrum": 0.4118,
+      "Cloud Security": 0.3529
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

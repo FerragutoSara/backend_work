@@ -1,0 +1,33 @@
+{
+  "profilo_target": "Angular Developer",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "TypeScript": 0.9722,
+      "JavaScript (ES6+)": 0.9028,
+      "HTML/CSS": 0.8611
+    },
+    "software": {
+      "Git": 0.7639,
+      "Docker": 0.3889
+    },
+    "frameworks": {
+      "Angular": 1,
+      "RxJS": 0.8056,
+      "State Management (NgRx)": 0.4444,
+      "Bootstrap/Angular Material": 0.4167
+    },
+    "conoscenze_teoriche": {
+      "Agile (Scrum)": 0.6944,
+      "REST API": 0.6667,
+      "Unit Testing (Jasmine/Karma/Cypress)": 0.4861,
+      "Microservices": 0.3472,
+      "Cloud Computing (AWS/Azure/GCP)": 0.3333
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}

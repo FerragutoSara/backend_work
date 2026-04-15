@@ -1,0 +1,37 @@
+{
+  "profilo_target": "SDET (Software Development Engineer in Test)",
+  "location": "Milano",
+  "collezione_skills": {
+    "linguaggi_programmazione": {
+      "Java": 0.6933,
+      "Python": 0.5067,
+      "JavaScript/TypeScript": 0.3867
+    },
+    "software": {
+      "Jenkins": 0.5467,
+      "Docker": 0.4533,
+      "Git": 0.7333,
+      "Postman/Insomnia": 0.64,
+      "Jira": 0.6667
+    },
+    "frameworks": {
+      "Selenium": 0.6133,
+      "Playwright": 0.4267,
+      "Cypress": 0.28,
+      "Appium": 0.24,
+      "Cucumber (BDD)": 0.4667
+    },
+    "conoscenze_teoriche": {
+      "Agile/Scrum": 0.8533,
+      "CI/CD Pipelines": 0.7867,
+      "API Testing": 0.76,
+      "Microservices": 0.44,
+      "Cloud Computing (AWS/Azure)": 0.3733
+    }
+  },
+  "metadata": {
+    "formato": "chiave-valore",
+    "scala_punteggio": "decimale (0-1)",
+    "origine": "Analizzatore di Competenze IT"
+  }
+}
