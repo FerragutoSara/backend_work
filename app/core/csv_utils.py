@@ -8,9 +8,9 @@ DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 class CSVDataLoader:
     """Utility per caricare e filtrare dati CSV da `data/`."""
 
-    def __init__(self, filename: str):
+    def __init__(self, filename: str, data_dir: Path = DATA_DIR):
         self.filename = filename
-        self.path = DATA_DIR / filename
+        self.path = data_dir / filename
         self._rows = self._load_rows()
 
     def _load_rows(self) -> List[Dict[str, str]]:
