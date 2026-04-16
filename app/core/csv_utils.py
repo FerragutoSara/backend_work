@@ -2,21 +2,23 @@ import csv
 from pathlib import Path
 from typing import Dict, List, Optional
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
-
+# Percorso assoluto alla cartella data/
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = BASE_DIR / "data"
 
 class CSVDataLoader:
-    """Utility per caricare e filtrare dati CSV da `data/`."""
+    """Utility per caricare e filtrare dati CSV da `skillbridge/data/`."""
 
-    def __init__(self, filename: str, data_dir: Path = DATA_DIR):
+    def __init__(self, filename: str):
         self.filename = filename
-        self.path = data_dir / filename
-        self._rows = self._load_rows()
+        self.path = DATA_DIR / filename
 
-    def _load_rows(self) -> List[Dict[str, str]]:
         if not self.path.exists():
             raise FileNotFoundError(f"CSV file not found: {self.path}")
 
+        self._rows = self._load_rows()
+
+    def _load_rows(self) -> List[Dict[str, str]]:
         with self.path.open("r", encoding="utf-8", newline="") as csv_file:
             reader = csv.DictReader(csv_file)
             return [self._normalize_row(row) for row in reader]

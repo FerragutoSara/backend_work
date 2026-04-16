@@ -1,19 +1,21 @@
 from app.repositories.user_skill_repository import UserSkillRepository
 from app.repositories.gap_analysis_repository import GapAnalysisRepository
-from app.core.csv_utils import CSVDataLoader
+from app.core.csv_utils import CSVDataLoader, DATA_DIR
 from app.schemas.user_skill_schema import UserSkillInput
 from app.services.scoring_engine import run_gap_analysis
 from fastapi import HTTPException
-import os
-from pathlib import Path
+
 
 class UserSkillService:
     def __init__(self):
         self.repo = UserSkillRepository()
         self.gap_analysis_repo = GapAnalysisRepository()
-        # Usa general_data per skills.csv
-        general_data_dir = Path(__file__).resolve().parents[2] / "general_data"
-        self.skills_loader = CSVDataLoader("skills.csv", data_dir=general_data_dir)
+
+        # Carica skills.csv dalla cartella corretta: skillbridge/data/
+        self.skills_loader = CSVDataLoader("skills.csv")
+
+        # oppure semplicemente:
+        # self.skills_loader = CSVDataLoader("skills.csv")
 
     def validate_and_save_user_skills(self, user_skill_data: UserSkillInput) -> tuple[str, dict]:
         # Validazione: controllare se skill_id esistono
@@ -30,6 +32,7 @@ class UserSkillService:
         # Calcola lo scoring prima di salvare
         data_to_save = user_skill_data.model_dump()
         consent_level = user_skill_data.consent_level or 1
+
         try:
             analysis = run_gap_analysis(data_to_save, consent_level=consent_level)
         except ValueError as exc:

@@ -8,8 +8,9 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Tuple
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+BASE_DIR = os.path.normpath(BASE_DIR)
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CANONICAL_CATEGORIES = ("linguaggi", "software", "framework", "knowledge")
 
@@ -62,7 +63,6 @@ def _category_status(score: float) -> str:
 
 
 def _expected_level_label(expected_level: float) -> str:
-    # Mapping defined in JSON Payload di Output (Gap Analysis).md
     if expected_level >= 0.90:
         return "Conoscenza esperta"
     if expected_level >= 0.80:
@@ -98,7 +98,8 @@ class Catalog:
         self._load()
 
     def _load(self) -> None:
-        skills_path = os.path.join(self.base_dir, "csv", "skills.csv")
+        # 🔴 PRIMA: "csv" → ORA: "data"
+        skills_path = os.path.join(self.base_dir, "data", "skills.csv")
         for row in _read_csv_dicts(skills_path):
             sid = _as_int(row["id"])
             self._skills_by_id[sid] = {
@@ -107,7 +108,7 @@ class Catalog:
                 "category": row["type"],
             }
 
-        job_path = os.path.join(self.base_dir, "csv", "job_title.csv")
+        job_path = os.path.join(self.base_dir, "data", "job_title.csv")
         for row in _read_csv_dicts(job_path):
             jid = _as_int(row["id"])
             self._job_by_id[jid] = {
@@ -116,12 +117,12 @@ class Catalog:
                 "area_id": row["id_area"],
             }
 
-        area_path = os.path.join(self.base_dir, "csv", "area.csv")
+        area_path = os.path.join(self.base_dir, "data", "area.csv")
         for row in _read_csv_dicts(area_path):
             aid = row["id"].strip()
             self._area_by_id[aid] = {"area_id": aid, "area_name": row["area"]}
 
-        req_path = os.path.join(self.base_dir, "csv", "role_skill_requirement.csv")
+        req_path = os.path.join(self.base_dir, "data", "role_skill_requirement.csv")
         for row in _read_csv_dicts(req_path):
             role_id = _as_int(row["role_id"])
             req = RoleRequirement(
@@ -190,8 +191,6 @@ def run_gap_analysis(
         catalog = Catalog()
 
     user_id = str(payload["user_id"])
-    # Server-derived consent: by default the caller should supply it (looked up from user_agreement).
-    # For backwards compatibility with older payloads, we also accept it from the payload if present.
     if consent_level is None:
         consent_level = payload.get("consent_level")
     if consent_level not in (1, 2):
@@ -210,7 +209,6 @@ def run_gap_analysis(
 
     user_levels_0_10: Dict[int, int] = {int(s["skill_id"]): int(s["user_level"]) for s in payload["skills"]}
 
-    # Build per-skill analysis for requirements only (ignore extra skills).
     skills_analysis: List[Dict[str, Any]] = []
     penalty_details: List[Dict[str, Any]] = []
 
@@ -234,7 +232,6 @@ def run_gap_analysis(
         coverage_score += u_norm * req.weight
         gap_overall += req.weight * gap
 
-        # Status counts (global and per-category) based on expected_level.
         if u_norm >= req.expected_level:
             status = "coperta"
             skills_covered += 1
@@ -266,7 +263,6 @@ def run_gap_analysis(
                 }
             )
 
-        # Category accumulators
         if req.category in category_acc:
             category_acc[req.category]["w_sum"] += req.weight
             category_acc[req.category]["uw_sum"] += u_norm * req.weight
@@ -295,10 +291,8 @@ def run_gap_analysis(
     score_final = max(0.0, coverage_score - penalty_sum)
     position_index = score_final
 
-    # Sort skills analysis by priority desc (as per contract).
     skills_analysis.sort(key=lambda x: (x["priority_score"], x["gap"]), reverse=True)
 
-    # Category metrics
     category_metrics: Dict[str, Any] = {}
     for cat in CANONICAL_CATEGORIES:
         w_sum = category_acc[cat]["w_sum"]
@@ -319,7 +313,6 @@ def run_gap_analysis(
             "skills_missing": category_counts[cat]["missing"],
         }
 
-    # Training priorities: top 5 skills with gap > 0.
     training_priorities: List[Dict[str, Any]] = []
     for s in skills_analysis:
         if s["gap"] <= 0:

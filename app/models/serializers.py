@@ -7,11 +7,11 @@ def user_serializer(user: dict) -> dict:
     }
 
 
-def auth_serializer(user: dict) -> dict:
+def auth_serializer(user):
     return {
         "id": str(user["_id"]),
-        "name": user["name"],
-        "surname": user["surname"],
-        "email": user["email"],
-        "privacy_level": user.get("privacy_level", 1)
+        "first_name": user.get("first_name"),
+        "last_name": user.get("last_name"),
+        "email": user.get("email"),
+        "agreement_id": user.get("agreement_id")
     }
