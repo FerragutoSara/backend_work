@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import router as api_router
+from app.routers.user_skill_router import router as user_skill_router
+
+
 
 app = FastAPI(
     title="FastAPI MongoDB Atlas CRUD",
@@ -17,6 +20,7 @@ app.add_middleware(
 )
 
 app.include_router(api_router)
+app.include_router(user_skill_router)
 
 @app.get("/")
 def root():

@@ -3,6 +3,8 @@ from app.repositories.auth_repository import AuthRepository
 from app.schemas.auth_schema import AuthRegister, AuthLogin, AuthResponse, TokenResponse
 from app.models.serializers import auth_serializer
 from app.core.security import hash_password, verify_password, create_access_token
+from datetime import datetime, timezone
+
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 repo = AuthRepository()
@@ -14,13 +16,18 @@ def register(payload: AuthRegister):
     if existing_user:
         raise HTTPException(status_code=400, detail="Email già registrata")
 
+    # 🔥 CORREZIONE: genera l'hash della password
+    hashed_password = hash_password(payload.password)
+
     user_data = {
-        "name": payload.name,
-        "surname": payload.surname,
-        "email": payload.email,
-        "privacy_level": payload.privacy_level,
-        "password": hash_password(payload.password)
-    }
+    "first_name": payload.first_name,
+    "last_name": payload.last_name,
+    "email": payload.email,
+    "password": hashed_password,
+    "agreement_id": payload.agreement_id,
+    "accepted_at": datetime.now(timezone.utc)
+}
+
 
     user_id = repo.create_user(user_data)
     user = repo.get_user_by_id(user_id)
