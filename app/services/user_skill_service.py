@@ -1,4 +1,5 @@
 from app.repositories.user_skill_repository import UserSkillRepository
+from app.repositories.gap_analysis_repository import GapAnalysisRepository
 from app.core.csv_utils import CSVDataLoader
 from app.schemas.user_skill_schema import UserSkillInput
 from app.services.scoring_engine import run_gap_analysis
@@ -9,6 +10,7 @@ from pathlib import Path
 class UserSkillService:
     def __init__(self):
         self.repo = UserSkillRepository()
+        self.gap_analysis_repo = GapAnalysisRepository()
         # Usa general_data per skills.csv
         general_data_dir = Path(__file__).resolve().parents[2] / "general_data"
         self.skills_loader = CSVDataLoader("skills.csv", data_dir=general_data_dir)
@@ -35,4 +37,8 @@ class UserSkillService:
 
         data_to_save["analysis"] = analysis
         skill_id = self.repo.create_user_skill(data_to_save)
+
+        gap_analysis_data = {**analysis, "user_skill_id": skill_id}
+        self.gap_analysis_repo.create_gap_analysis(gap_analysis_data)
+
         return skill_id, analysis
